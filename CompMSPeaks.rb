@@ -147,10 +147,37 @@ module CompMSPeaks
     def list_peak_cluster( etype )
       @mspeaks[etype].each_key do |mspeak|
         print @mspeaks[etype][mspeak].collect{|x| x.sid }.sort.uniq.join("\t"), "\n" if @mspeaks[etype][mspeak].size > 2
-
       end
     end
 
+    def table_peak_cluster( etype )
+      h = {}
+      @mspeaks[etype].each_key do |mspeak|
+        if @mspeaks[etype][mspeak].size > 1
+          k = @mspeaks[etype][mspeak].collect{|x| x.sid }.sort.uniq
+          h[ k ] = 0 if h[ k ] == nil
+          h[ k ] += 1
+        end
+      end
+      flatten_keys = h.keys.flatten
+      flatten_keys.sort!
+      flatten_keys.uniq!
+
+      print "num"; flatten_keys.each{|v| print "\t#{v}"}; print "\n"
+      h_keys = h.keys.sort{|x, y| h[y] <=> h[x]}
+      h_keys.each do |k|
+        print "#{h[k]}"
+        flatten_keys.each do |v|
+          if k.include?( v )
+            print "\t#{v}" 
+          else
+            print "\t" 
+          end
+        end
+        print "\n"
+      end
+
+    end
   end
 
 end
@@ -158,7 +185,8 @@ end
 if $0 == __FILE__ 
 
   msps = CompMSPeaks::MSPeaks.new( 5, ARGF )
-  msps.list_peak_cluster( "pos" )
+#  msps.list_peak_cluster( "pos" )
+  msps.table_peak_cluster( "pos" )
 
 end
 
