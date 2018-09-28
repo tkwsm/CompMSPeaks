@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/local/bin/ruby
 
 # = comp_peaks.rb - Comparing MSMS peak data for metabolome.
 #
@@ -26,8 +26,6 @@
 
 # Initialize Variables
 
-min_search_mass = 100.0
-max_search_mass = 2000.0
 
 ###############################################
 # Main Part : 0.
@@ -42,7 +40,7 @@ module CompMSPeaks
   end
 
   def diff_two_peaks( apeaks, bpeaks)
-    p ( apeaks - bpeaks )
+    ( apeaks - bpeaks )
   end
 
   def create_center_peaks( original_peaks, center_peaks, ppm )
@@ -82,6 +80,8 @@ module CompMSPeaks
     include CompMSPeaks
 
     def initialize( ppm, *peak_table_files )
+      @min_search_mass = 100.0
+      @max_search_mass = 2000.0
       @ppm         = ppm
       @pos_array   = []
       @neg_array   = []
@@ -130,18 +130,20 @@ module CompMSPeaks
 
     def add_table_data( peak_table_file )
       a = []
-      peak_table_file.each do |x|
+      open( peak_table_file ) .each do |x|
         a = x.chomp.split("\s")
         sid = a[0]
         etype    =  a[1]
         mol_mass =  a[2].to_f
         aducts   =  a[3..-1]
+        next if mol_mass < @min_search_mass
+        next if mol_mass > @max_search_mass
         add_original_peaks( sid, etype, mol_mass, aducts )
       end
     end
 
     def add_table_files( peak_table_files )
-      peak_table_files.each{ |afile| add_table_data( afile ) }
+      peak_table_files.flatten.each{ |afile| add_table_data( File.expand_path(afile) ) }
     end
 
     def list_peak_cluster( etype )
@@ -150,10 +152,19 @@ module CompMSPeaks
       end
     end
 
+    def table_peak_cluster2( etype )
+      h = {}
+      @mspeaks[etype].each_key do |mspeak|
+        p @mspeaks[etype][mspeak]
+        p @mspeaks[etype][mspeak].collect{|x| x.sid }
+        p @mspeaks[etype][mspeak].collect{|x| x.sid }.uniq 
+      end
+    end
+
     def table_peak_cluster( etype )
       h = {}
       @mspeaks[etype].each_key do |mspeak|
-        if @mspeaks[etype][mspeak].size > 1
+        if @mspeaks[etype][mspeak].size > 2
           k = @mspeaks[etype][mspeak].collect{|x| x.sid }.sort.uniq
           h[ k ] = 0 if h[ k ] == nil
           h[ k ] += 1
@@ -184,9 +195,10 @@ end
 
 if $0 == __FILE__ 
 
-  msps = CompMSPeaks::MSPeaks.new( 5, ARGF )
+  msps = CompMSPeaks::MSPeaks.new( 5, ARGV )
 #  msps.list_peak_cluster( "pos" )
-  msps.table_peak_cluster( "pos" )
+#  msps.table_peak_cluster( "pos" )
+  msps.table_peak_cluster2( "neg" )
 
 end
 
