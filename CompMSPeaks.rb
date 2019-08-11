@@ -65,7 +65,8 @@ module CompMSPeaks
 
     def calc_ms_without_adduct
       adduct_mw = @mc.adduct_mw( @adduct )
-      ( @mol_mass - adduct_mw.adduct_mw_divided_by_charge ) / adduct_mw.mult
+      total_adduct = (adduct_mw.adduct_mw_divided_by_charge * adduct_mw.charge)
+      ( @mol_mass - total_adduct ) / adduct_mw.mult
     end
 
   end
@@ -96,7 +97,7 @@ module CompMSPeaks
     end
 
     attr_reader :bin_ms, :pos_array, :neg_array, :c_pos_peaks, :c_neg_peaks,
-                :mspeaks
+                :mspeaks, :samples_order
     def change_samples_order( sample_id_list )
        @samples_order = []
        ff = File.open( sample_id_list )
@@ -104,7 +105,8 @@ module CompMSPeaks
        ff.each do |x|
          next if x !~ /\S/
          next if x =~ /^\#/
-         @samples_order << x.slice(/^(\S+).peak.table/, 1)
+         @samples_order << x.slice(/^(\S+).peak.table/, 1) if x =~ /peak.table/
+         @samples_order << x.slice(/^(\S+)/, 1)            if x !~ /peak.table/
        end
     end
 
@@ -129,7 +131,7 @@ module CompMSPeaks
             current_bin_min, current_bin_max = bin_ms_key
             next if charge != :p
             next if item.ms_without_adduct < current_bin_min
-            next if item.ms_without_adduct > current_bin_max
+            next if item.ms_without_adduct >= current_bin_max
             @mspeaks[ charge ][ bin_ms_key ] << item
           end
         end
@@ -140,7 +142,7 @@ module CompMSPeaks
             current_bin_min, current_bin_max = bin_ms_key
             next if charge != :n
             next if item.ms_without_adduct < current_bin_min
-            next if item.ms_without_adduct > current_bin_max
+            next if item.ms_without_adduct >= current_bin_max
             @mspeaks[ charge ][ bin_ms_key ] << item
           end
         end
@@ -165,7 +167,7 @@ module CompMSPeaks
         @samples[ sid ] = ""
         @samples_order = @samples.keys.sort
         next if mol_mass < @min_search_mass
-        next if mol_mass > @max_search_mass
+        next if mol_mass >= @max_search_mass
         adducts.each do |an_adduct|
           add_original_peaks( sid, charge, mol_mass, ret, an_adduct )
         end
@@ -210,7 +212,7 @@ module CompMSPeaks
 
       @mspeaks[charge].each_key do |mspeak|
         next if @mspeaks[charge][mspeak].size <= 0
-        print mspeak.join("-")
+        print "#{charge.to_s}-#{mspeak.join("-")}"
         @samples_order.each do |sid|
           if @mspeaks[charge][mspeak].collect{|item| item.sid }.include?( sid )
             countv = @mspeaks[charge][mspeak].count{|item| item.sid == sid }
@@ -258,19 +260,27 @@ if $0 == __FILE__
   check_list_hash = {}
   File.open( sample_id_list ).each do |afile_line|
     file_name = afile_line.chomp.split("\t")[0]
-    next if file_name !~ /\S+.peak.table/
-    file_name = file_name.slice(/^(\S+).peak.table/, 1)
+    next if file_name !~ /\S+.peak.table/ and file_name !~ /^\d+/
+    if file_name =~ /peak/
+      file_name = file_name.slice(/^(\S+).peak.table/, 1) 
+    elsif file_name =~ /^\d+/
+      file_name = file_name.slice(/^(\S+)/, 1) 
+    end
     check_list_hash[ file_name ] = ""
   end
   
-  STDERR.puts  check_list_hash
   STDERR.puts "READFILES"
   peak_tables    = []
   Dir.open( peak_table_dir ).each do |afile|
 
+    file_name = ""
     next if afile =~ /^\./
-    next if afile !~ /\S+.peak.table/
-    file_name = afile.slice(/^(\S+).peak.table/, 1)
+    next if afile !~ /\S+.peak.table/ and afile !~ /^\d+/
+    if afile =~ /peak.table/
+      file_name = afile.slice(/^(\S+).peak.table/, 1) 
+    elsif afile =~ /^\d+/
+      file_name = afile.slice(/^(\S+)/, 1)            
+    end
     next unless check_list_hash[ file_name ]
     STDERR.puts "set #{afile} for survey"
 
@@ -278,7 +288,7 @@ if $0 == __FILE__
   end
 
   STDERR.puts "PEAK TABLES Loaded"
-  STDERR.puts "#{peak_tables.join(":")}"
+#  STDERR.puts "#{peak_tables.join(":")}"
 
 ##                                   bin, min, max, peak_tables ##
 ##  msps = CompMSPeaks::MSPeaks.new( 5, min_peak, max_peak, peak_tables )
