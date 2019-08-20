@@ -51,21 +51,23 @@ module CompMSPeaks
   class MSPeak
     include CompMSPeaks
 
-    def initialize( sid, charge, mol_mass, ret, adduct )
+    def initialize( sid, charge, mol_mass, ret, pid, adduct )
       @sid = sid              # S12002
       @charge   = charge      # pos or neg
       @mol_mass = mol_mass    # 101.00120
       @ret      = ret         # 37.0 etc.   # Retention Time
       @adduct   = adduct      # [H]+ etc.
+      @pid      = pid         # 1423
       @mc       = MolCalc.new
       @ms_without_adduct = calc_ms_without_adduct # 101.00120
     end
 
-    attr_reader :sid, :charge, :mol_mass, :ret, :adducts, :ms_without_adduct 
+    attr_reader :sid, :charge, :mol_mass, :ret, :adduct, :ms_without_adduct,
+                :pid
 
     def calc_ms_without_adduct
       adduct_mw = @mc.adduct_mw( @adduct )
-      total_adduct = (adduct_mw.adduct_mw_divided_by_charge * adduct_mw.charge)
+      total_adduct = (adduct_mw.adduct_mw_divided_by_charge)
       ( @mol_mass - total_adduct ) / adduct_mw.mult
     end
 
@@ -98,6 +100,7 @@ module CompMSPeaks
 
     attr_reader :bin_ms, :pos_array, :neg_array, :c_pos_peaks, :c_neg_peaks,
                 :mspeaks, :samples_order
+
     def change_samples_order( sample_id_list )
        @samples_order = []
        ff = File.open( sample_id_list )
@@ -149,9 +152,9 @@ module CompMSPeaks
       end
     end
 
-    def add_original_peaks( sid, charge, mol_mass, ret, adduct )
-      @pos_array << MSPeak.new(sid,charge,mol_mass,ret,adduct) if charge == :p
-      @neg_array << MSPeak.new(sid,charge,mol_mass,ret,adduct) if charge == :n
+    def add_original_peaks( sid, charge, mol_mass, ret, adduct, pid )
+      @pos_array << MSPeak.new(sid,charge,mol_mass,ret,adduct,pid) if charge==:p
+      @neg_array << MSPeak.new(sid,charge,mol_mass,ret,adduct,pid) if charge==:n
     end
 
     def add_table_data( peak_table_file )
@@ -169,7 +172,7 @@ module CompMSPeaks
         next if mol_mass < @min_search_mass
         next if mol_mass >= @max_search_mass
         adducts.each do |an_adduct|
-          add_original_peaks( sid, charge, mol_mass, ret, an_adduct )
+          add_original_peaks( sid, charge, mol_mass, ret, an_adduct, pid )
         end
       end
     end
@@ -222,6 +225,33 @@ module CompMSPeaks
           end
         end
         print "\n" 
+      end
+
+    end
+
+    def table_peak_cluster_with_original_ms( charge )
+
+      @mspeaks[charge].each_key do |mspeak|
+        next if @mspeaks[charge][mspeak].size <= 0
+        tmp_array = []
+        print "#{charge.to_s}-#{mspeak.join("-")}"
+        @samples_order.each do |sid|
+          if @mspeaks[charge][mspeak].collect{|item| item.sid }.include?( sid )
+            countv = @mspeaks[charge][mspeak].count{|item| item.sid == sid }
+            print "\t#{countv}"
+          else
+            print "\t0" 
+          end
+        end
+        print "\n" 
+        @mspeaks[charge][mspeak].collect{|item|[item.sid, 
+                                                item.charge, 
+                                                item.mol_mass.round(6), 
+                                                item.ret, 
+                                                item.adduct, 
+                                                item.ms_without_adduct.round(6)]}.each do |annot|
+          print "annot\t#{annot.join("\t")}\n"
+        end
       end
 
     end
@@ -297,8 +327,10 @@ if $0 == __FILE__
 #  msps.list_sid_by_peak_cluster( "pos" )
 #  msps.table_spotcounts_by_peak_cluster( "pos" )
   msps.table_headers( :p )
-  msps.table_peak_cluster( :p )
-  msps.table_peak_cluster( :n )
+##  msps.table_peak_cluster( :p )
+##  msps.table_peak_cluster( :n )
+  msps.table_peak_cluster_with_original_ms( :p )
+  msps.table_peak_cluster_with_original_ms( :n )
 #  msps.table_spotcounts_by_peak_cluster( :p )
 #  msps.table_peak_cluster2( :n )
 #   sid_list = ["10086", "10199"]
