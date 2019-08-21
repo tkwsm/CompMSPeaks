@@ -1,355 +1,500 @@
-01038	pos	227.9827405868038	5.68226	[M+H]+
-01038	pos	296.96535034179686	9.32935	[M+H]+
-01038	pos	243.00042114257812	9.40464	[M+H]+
-01038	pos	243.99583689371744	9.49198	[M+H]+
-01038	pos	151.03526306152344	9.49928	[M-H2O+H]+
-01038	pos	192.0617870462352	9.54371	[M+ACN-H2O+H]+, [M+ACN+H]+
-01038	pos	241.99961925688245	9.55427	[M+H]+
-01038	pos	267.0131549835205	9.56348	[M+H]+
-01038	pos	268.0139414469401	9.56613	[M+H]+
-01038	pos	265.0155765928071	9.56755	[M+H]+
-01038	pos	266.0163963580954	9.57025	[M+H]+
-01038	pos	197.04068647112166	9.5952	[M+H]+
-01038	pos	280.9911847795759	9.60188	[M+H]+
-01038	pos	151.03471156529017	9.6066	[M+H]+
-01038	pos	280.99317932128906	9.6539	[M+H]+
-01038	pos	198.04144096374512	9.75174	[M+H]+
-01038	pos	197.04082489013672	10.1142	[M+H]+
-01038	pos	178.00860595703125	11.0546	[M+H]+
-01038	pos	294.93897370369206	11.0594	[M+H]+
-01038	pos	158.96346791585287	11.067	[M+H]+
-01038	pos	226.95162127094883	11.0833	[M+H]+
-01038	pos	199.990766398112	11.1003	[M+H]+
-01038	pos	284.9102952745226	11.2135	[M+H]+
-01038	pos	286.9049011230469	11.2404	[M+H]+
-01038	pos	218.91989135742188	11.242	[M+H]+
-01038	pos	216.92284478081598	11.2501	[M+H]+
-01038	pos	276.8784576416016	11.2815	[M+H]+
-01038	pos	274.8813873291016	11.2841	[M+H]+
-01038	pos	247.9205525716146	11.2998	[M+H]+
-01038	pos	208.89107360839844	11.3173	[M+H]+
-01038	pos	266.8496856689453	11.3468	[M+H]+
-01038	pos	264.8525870186942	11.3557	[M+H]+
-01038	pos	206.89412536621094	11.3714	[M+H]+
-01038	pos	239.88885498046875	11.3941	[M+H]+
-01038	pos	258.8179168701172	11.3978	[M+H]+
-01038	pos	256.8208923339844	11.409	[M+H]+
-01038	pos	137.0518798828125	11.7197	[M+H]+
-01038	pos	204.08685302734375	11.8247	[M+H]+
-01038	pos	203.0527246648615	11.9325	[M+H]+
-01038	pos	289.0919276646205	11.9357	[M+H]+
-01038	pos	244.0793441772461	11.9446	[M+H]+
-01038	pos	295.10240478515624	12.0145	[M+H]+
-01038	pos	221.18600463867188	12.1023	[M+H]+
-01038	pos	235.16533138877466	12.165	[2M+H]+
-01038	pos	236.1672079903739	12.1982	[M+H]+
-01038	pos	277.0892780010517	12.2089	[M+H]+
-01038	pos	257.1471811930339	12.2222	[M+H]+
-01038	pos	256.0816955566406	12.3895	[M+H]+
-01038	pos	222.09734344482422	12.3964	[M+H]+
-01038	pos	265.09019165039064	12.4387	[M+H]+
-01038	pos	265.09193318684896	12.4689	[M+H]+
-01038	pos	159.0513458251953	12.5005	[M+H]+
-01038	pos	282.1197916666667	12.6163	[M+H]+
-01038	pos	228.09682922363282	12.6216	[M+H]+
-01038	pos	246.14348929268974	12.6271	[M+H]+
-01038	pos	228.09799194335938	12.6558	[M+H]+
-01038	pos	223.03299255371093	12.77	[M+H]+
-01038	pos	203.10283660888672	12.7873	[M+H]+
-01038	pos	223.03431919642858	12.8209	[M+H]+
-01038	pos	219.13405151367186	12.9011	[M+H]+
-01038	pos	233.11333923339845	12.907	[M+H]+
-01038	pos	253.1408233642578	12.9643	[M+H]+
-01038	pos	244.12927523526278	13.0311	[M+H]+
-01038	pos	247.17657252720423	13.0953	[M+H]+
-01038	pos	269.1356637137277	13.1594	[M+H]+
-01038	pos	159.1120867047991	13.1612	[M+H]+
-01038	pos	152.05682067871095	13.1718	[M+H]+
-01038	pos	187.107568359375	13.2944	[M+H]+
-01038	pos	247.12894694010416	13.2969	[M+H]+
-01038	pos	246.14483032226562	13.3167	[M+H]+
-01038	pos	217.1183837890625	13.3193	[M+H]+
-01038	pos	268.10401611328126	13.3228	[M+H]+
-01038	pos	252.1092056274414	13.3274	[M+H]+
-01038	pos	253.1125717163086	13.3289	[M+H]+
-01038	pos	245.07686961780894	13.3343	[M+H]+
-01038	pos	284.09893188476565	13.336	[M+H]+
-01038	pos	286.1034729003906	13.3371	[M+ACN+H]+
-01038	pos	229.15473660555753	13.3389	[M+H]+
-01038	pos	182.08117065429687	13.3458	[M+H]+
-01038	pos	241.15471394856772	13.3544	[M+H]+
-01038	pos	230.15716552734375	13.3569	[M+H]+
-01038	pos	272.1105393629808	13.3584	[M+ACN+Na]+, [M+Na]+
-01038	pos	282.1196746826172	13.3653	[M+H]+
-01038	pos	209.10202026367188	13.3654	[M+H]+
-01038	pos	209.1009041922433	13.3684	[M+H]+
-01038	pos	250.12862820095486	13.3706	[M+ACN+H]+, [M+H]+
-01038	pos	231.08397674560547	13.3707	[M+Na]+
-01038	pos	229.0820098876953	13.3787	[M+H]+
-01038	pos	232.087060546875	13.3837	[M+H]+
-01038	pos	241.12823181152345	13.4094	[M+CH3OH+H]+
-01038	pos	215.13789558410645	13.4934	[M+H]+
-01038	pos	289.0423645019531	13.5244	[M+H]+
-01038	pos	271.1879482269287	13.5863	[M+H]+
-01038	pos	215.13904512845554	13.6435	[M+H]+
-01038	pos	173.12846565246582	13.8255	[M+H]+
-01038	pos	173.12840975247897	14.236	[M+H]+
-01038	pos	173.12760509144175	14.2647	[M+H]+
-01038	pos	132.10142135620117	14.2741	[M+H]+
-01038	pos	199.98779296875	17.3486	[M+H]+
-01038	pos	244.1277069091797	18.6566	[M+H]+
-01038	pos	244.12920633951822	18.6642	[M+H]+
-01038	pos	269.1609141031901	18.7184	[M+H]+
-01038	pos	247.12903442382813	18.7201	[M+H]+
-01038	pos	260.160546875	18.7328	[M+H]+
-01038	pos	229.15471649169922	18.7332	[M+H]+
-01038	pos	286.10341796875	18.7351	[M+H]+
-01038	pos	245.07688348943537	18.7401	[M+H]+
-01038	pos	286.1013427734375	18.7423	[M+H]+
-01038	pos	213.12298889160155	18.7424	[M+H]+
-01038	pos	231.08394446739783	18.743	[M+Na]+
-01038	pos	226.12861851283483	18.743	[M+NH4]+
-01038	pos	209.10193379720053	18.7456	[M+H]+
-01038	pos	272.11048278808596	18.7506	[M+ACN+Na]+, [M+Na]+
-01038	pos	250.12856750488282	18.7543	[M+ACN+H]+, [M+H]+
-01038	pos	268.1390869140625	18.7584	[M+H]+
-01038	pos	182.0810089111328	19.021	[M+H]+
-01038	pos	268.1039237976074	19.0368	[M+H]+
-01038	pos	173.12842407226563	19.0773	[M+H]+
-01038	pos	132.101904296875	19.0791	[M+H]+
-01038	pos	241.1546371459961	19.1013	[M+H]+
-01038	pos	176.09178771972657	19.2143	[M+H]+
-01038	pos	284.0988342285156	19.6199	[M+H]+
-01038	pos	261.1444832938058	19.624	[M+H]+
-01038	pos	173.12840540268843	19.8354	[M+ACN+H]+
-01038	pos	132.10140686035157	19.8359	[M+H]+
-01038	pos	173.1276454925537	19.8486	[M+ACN+H]+
-01038	pos	252.1090379797894	20.0013	[M+H]+
-01038	pos	229.0818339029948	20.0912	[M+H]+
-01038	pos	295.0603332519531	20.7784	[M+H]+
-01038	pos	231.08389516977164	20.9763	[M+Na]+
-01038	pos	226.12851810455322	20.9954	[M+NH4]+
-01038	pos	290.08595021565753	21.7743	[M+Na]+
-01038	pos	268.1039544968378	21.7814	[M+H]+
-01038	pos	243.0975429650509	22.635	[M+H]+
-01038	pos	243.09604739354663	22.823	[M+H]+
-01038	pos	215.13901909722222	23.3871	[M+H]+
-01038	pos	217.15465450286865	23.8724	[M+H]+
-01038	pos	259.09241440716914	24.0828	[M+H]+
-01038	pos	166.08624318440755	24.5389	[M+H]+
-01038	pos	282.1195037841797	24.5442	[M+H]+
-01038	pos	298.11236790248324	25.3485	[M+H]+
-01038	pos	298.11446066463697	25.3563	[M+H]+
-01038	pos	243.09748649597168	26.6447	[M+H]+
-01038	pos	207.11274047851563	26.8471	[M+ACN+H]+
-01038	pos	166.0854775565011	26.8938	[M+H]+
-01038	pos	219.13384924994574	27.8966	[M+H]+
-01038	pos	246.1447470528739	28.2416	[M+H]+
-01038	pos	220.11786422729492	28.3462	[M+H]+
-01038	pos	260.1603437151228	28.5987	[M+H]+
-01038	pos	279.13378470284596	28.8227	[M+H]+
-01038	pos	189.12330627441406	29.1929	[M+H]+
-01038	pos	233.1495048522949	29.1976	[M+H]+
-01038	pos	231.17030334472656	29.9579	[M+H]+
-01038	pos	261.14439493815104	29.9991	[M+H]+
-01038	pos	229.15459060668945	30.1938	[M+H]+
-01038	pos	229.15463057808253	31.3439	[M+H]+
-01038	pos	296.1332092285156	31.464	[M+H]+
-01038	pos	296.13517506917316	31.4724	[M+H]+
-01038	pos	253.11829071044923	31.4746	[M+H]+
-01038	pos	294.1447254527699	31.914	[M+H]+
-01038	pos	223.10778045654297	32.2214	[M+H]+
-01038	pos	205.09715036245493	32.2943	[M-H2O+H]+
-01038	pos	267.13397216796875	32.599	[M+H]+
-01038	pos	188.06966400146484	33.1614	[M+H]+
-01038	pos	246.12367600661057	33.1678	[M+C2H6N2+H]+, [M+ACN+NH4]+
-01038	pos	295.12871170043945	33.174	[M+H]+
-01038	pos	205.0971943248402	33.1928	[M+NH4]+
-01038	pos	188.0705540974935	33.2111	[M+H]+
-01038	pos	231.17031860351562	33.2265	[M+H]+
-01038	pos	286.17615182059154	33.5464	[M+H]+
-01038	pos	292.12933627041906	35.1961	[M+H]+
-01038	pos	262.11890563964846	35.7509	[M+H]+
-01038	pos	263.13724339261967	35.8112	[M+H]+
-01038	pos	263.1392850008878	35.9346	[M+H]+
-01038	pos	276.1347961425781	36.1452	[M+H]+
-01038	pos	265.1551239013672	36.3486	[M+H]+
-01038	pos	242.035205078125	39.1349	[M+H]+
-01038	pos	227.9830749511719	39.1564	[M+H]+
-01038	pos	279.1706346784319	39.6864	[M+H]+
-01038	pos	195.06534830729166	48.824	[M+H]+
-01038	pos	207.15919058663505	52.7293	[M+H]+
-01038	pos	224.18451944986978	52.788	[M+H]+
-01038	pos	224.1858389718192	52.8385	[M+NH4]+
-01038	pos	199.9879592895508	53.5146	[M+H]+
-01038	pos	227.9829528808594	53.5296	[M+H]+
-01038	pos	199.98799514770508	54.1963	[M+H]+
-01038	pos	227.98301696777344	54.5111	[M+H]+
-01038	pos	213.14866468641492	59.2729	[M+H]+
-01038	pos	293.21112337979406	59.2855	[M-H2O+H]+
-01038	pos	277.2162611219618	61.8245	[M-2(H2O)+H]+
-01038	pos	195.1380645751953	61.8692	[M-H2O+H]+
-01038	pos	295.22681390671505	61.8954	[M-H2O+H]+
-01038	pos	213.14864309210526	61.8987	[M+H]+
-01038	pos	132.30133056640625	61.9024	[M+H]+
-01038	pos	258.64588317871096	65.7339	[M+H]+
-01038	pos	219.15916551862443	65.7481	[M+H]+
-01038	pos	280.26351224459137	67.2547	[M-H2O+H]+
-01038	pos	298.27400623668325	67.2576	[M+H]+
-01038	pos	298.2740638369606	68.1611	[M+H]+
-01038	pos	223.09656838809744	68.4222	[M+H]+
-01038	pos	282.2791536771334	68.5276	[M+H]+
-01038	pos	284.2948719371449	72.2275	[M+H]+
-01038	pos	127.32981967926025	73.0764	[M+H]+
-01038	pos	263.237255859375	75.8848	[M+H]+
-01038	pos	135.88194465637207	75.9155	[M+H]+
-01038	pos	135.88193997469816	77.3878	[M+H]+
-01038	pos	263.23728942871094	77.3982	[M+H]+
-01038	pos	279.2321014404297	77.8104	[M+H]+
-01038	pos	279.1372334798177	80.9168	[M+H]+
-01038	pos	103.66713333129883	81.303	[M+H]+
-01038	pos	278.6393935259651	81.4002	[M+H]+
-01038	pos	277.21635267469617	82.6817	[M+H]+
-01038	pos	263.2372131347656	85.3803	[M+H]+
-01038	pos	298.65918986002606	85.4347	[M+H]+
-01038	pos	293.2114821213942	85.9929	[M+H]+
-01038	pos	287.650397667518	86.0987	[M+H]+
-01038	pos	263.2372741699219	86.6252	[M+H]+
-01038	pos	279.23227571186266	87.012	[M+H]+
-01038	pos	104.07022759222215	87.393	[M+H]+
-01038	pos	255.23208068847657	88.5624	[M+H]+
-01038	pos	273.2426480379972	88.5985	[M+H]+
-01038	pos	295.2276916503906	90.1968	[M+H]+
-01038	pos	297.2425887496383	93.2683	[M+H]+
-01038	pos	280.26378839666194	100.969	[M+H]+
-01038	pos	267.2666277204241	102.019	[M+H]+
-01038	pos	267.2685089111328	102.094	[M+H]+
-01038	pos	241.05166320800782	105.161	[M+H]+
-01038	pos	275.0088544573103	105.187	[M+ACN+H]+
-01038	pos	233.9822540283203	105.332	[M+H]+
-01038	pos	275.9928505637429	105.377	[M+H]+
-01038	neg	276.9543212890625	9.50846	[M-H]-
-01038	neg	158.97844805036272	9.5382	[M-H]-
-01038	neg	275.9574519566127	9.54263	[M-H]-
-01038	neg	274.9566597316576	9.55188	[M-H]-
-01038	neg	272.9589469663558	9.56187	[M-H]-
-01038	neg	273.959908803304	9.56891	[M-H]-
-01038	neg	262.9303872244699	9.61792	[M-H]-
-01038	neg	288.93670959472655	9.70576	[M-H]-
-01038	neg	259.0785624186198	10.1734	[M-H]-
-01038	neg	248.96060180664062	10.993	[M+NaCOOH-H]-
-01038	neg	180.97274068196614	11.0241	[M-H]-
-01038	neg	238.93175615583147	11.185	[M-H]-
-01038	neg	240.92867736816407	11.2014	[M-H]-
-01038	neg	298.8873240152995	11.2145	[M+NaCOOH-H]-
-01038	neg	296.89044799804685	11.2146	[M+NaCOOH-H]-
-01038	neg	286.8615485297309	11.2655	[M+NaCOOH-H]-
-01038	neg	228.90309143066406	11.2704	[M-H]-
-01038	neg	288.8586181640625	11.2768	[M+NaCOOH-H]-
-01038	neg	218.8741668701172	11.3372	[M-H]-
-01038	neg	276.8326759338379	11.3446	[M+NaCOOH-H]-
-01038	neg	280.8268781389509	11.3456	[M+NaCOOH-H]-
-01038	neg	278.82985229492186	11.3477	[M+NaCOOH-H]-
-01038	neg	220.8712412516276	11.3555	[M-H]-
-01038	neg	266.80399431501115	11.3968	[M-H]-
-01038	neg	268.8009826660156	11.3987	[M-H]-
-01038	neg	272.7950866699219	11.4004	[M-H]-
-01038	neg	210.84239196777344	11.4023	[M-H]-
-01038	neg	270.7980550130208	11.4074	[M-H]-
-01038	neg	208.84552612304688	11.43	[M-H]-
-01038	neg	281.08802286783856	11.6232	[M-H]-
-01038	neg	263.0776023864746	11.6435	[M-H]-
-01038	neg	221.0669460296631	11.6565	[M-H]-
-01038	neg	217.03006795247396	11.8738	[M-H]-
-01038	neg	215.0330105736142	11.8761	[M-H]-
-01038	neg	260.98038591657365	11.9743	[M-H]-
-01038	neg	267.07232157389325	12.0801	[M-H]-
-01038	neg	185.0224365234375	12.1375	[M-H]-
-01038	neg	289.06964789496527	12.143	[M-H]-
-01038	neg	269.12738647460935	12.2262	[M-H]-
-01038	neg	258.05677490234376	12.3479	[M-H]-
-01038	neg	256.05950927734375	12.4037	[M+ACN-H]-
-01038	neg	191.05636901855468	12.4646	[M-H]-
-01038	neg	250.9722106933594	12.5242	[M-H]-
-01038	neg	252.9693572998047	12.5252	[M-H]-
-01038	neg	193.0136478969029	12.5276	[M-H]-
-01038	neg	199.03788103376115	12.8165	[M-H]-
-01038	neg	256.99657440185547	12.8255	[M-H]-
-01038	neg	258.99363708496094	12.8402	[M-H]-
-01038	neg	242.1151123046875	13.0474	[M-H]-
-01038	neg	281.0880699157715	13.0903	[M-H]-
-01038	neg	289.0177815755208	13.2618	[M-H]-
-01038	neg	191.01983947753905	13.3157	[M-H]-
-01038	neg	133.01416625976563	13.3302	[M-H]-
-01038	neg	282.08440551757815	13.3379	[M-H]-
-01038	neg	289.06787109375	13.3452	[M-H]-
-01038	neg	266.0897583007812	13.3618	[M-H]-
-01038	neg	243.0625400543213	13.3632	[M-H]-
-01038	neg	281.03618774414065	13.3633	[M-H]-
-01038	neg	253.09301948547363	13.364	[M-H]-
-01038	neg	279.0390319824219	13.3677	[M-H]-
-01038	neg	263.0442250569661	13.4091	[M-H]-
-01038	neg	207.05120334855044	14.4532	[M-H]-
-01038	neg	297.11924438476564	18.7207	[M-H]-
-01038	neg	191.01995340983072	18.7289	[M-H]-
-01038	neg	245.06135142933238	18.7444	[M-H]-
-01038	neg	243.06251780192056	18.7493	[M-H]-
-01038	neg	289.06783185686385	18.7515	[M+HCOOH-H]-
-01038	neg	281.0360900878906	18.7518	[M-H]-
-01038	neg	279.03900146484375	18.7527	[M+HCl-H]-
-01038	neg	290.0713256835937	18.7534	[M-H]-
-01038	neg	253.09305279071515	18.7702	[M-H]-
-01038	neg	266.0899597167969	19.0434	[M-H]-
-01038	neg	282.08460388183596	19.5905	[M-H]-
-01038	neg	257.028082953559	19.737	[M-H]-
-01038	neg	286.0714416503906	19.9325	[M-H]-
-01038	neg	288.06847589666194	19.9431	[M-H]-
-01038	neg	296.10035705566406	19.978	[M-H]-
-01038	neg	263.0442199707031	20.0089	[M-H]-
-01038	neg	265.041298421224	20.0221	[M-H]-
-01038	neg	273.07298278808594	20.0414	[M-H]-
-01038	neg	266.0896331787109	21.8441	[M-H]-
-01038	neg	287.08850288391113	26.7284	[M+HCOOH-H]-
-01038	neg	241.08314056396483	26.7415	[M-H]-
-01038	neg	277.0597354664522	26.7637	[M+HCl-H]-
-01038	neg	279.05682373046875	26.778	[M-H]-
-01038	neg	277.1194091796875	28.8301	[M-H]-
-01038	neg	259.1299511137463	29.9944	[M-H]-
-01038	neg	249.0882051908053	33.1802	[M+HCOOH-H]-
-01038	neg	239.05941162109374	33.1876	[M+HCl-H]-
-01038	neg	203.08270111083985	33.196	[M-H]-
-01038	neg	261.12449202998994	35.8649	[M-H]-
-01038	neg	277.1556895862926	39.6773	[M-H]-
-01038	neg	241.11939725008878	40.4658	[M-H]-
-01038	neg	131.89724731445312	61.8858	[M-H]-
-01038	neg	211.13413906097412	61.9111	[M-H]-
-01038	neg	285.12632057883525	66.3402	[M-H]-
-01038	neg	293.2123686137952	74.9877	[M-H]-
-01038	neg	277.21766310471753	75.6987	[M-H]-
-01038	neg	279.23330942789715	75.8725	[M-H]-
-01038	neg	144.6789581298828	75.8845	[M-H]-
-01038	neg	144.67894999186197	77.3844	[M-H]-
-01038	neg	279.2334095348011	77.3944	[M-H]-
-01038	neg	279.23314339774	79.4308	[M-H]-
-01038	neg	190.71819152832032	80.9694	[M-H]-
-01038	neg	279.23328290666853	80.9792	[M-H]-
-01038	neg	112.46481418609619	81.4009	[M-H]-
-01038	neg	293.2125600179036	82.6676	[M-H]-
-01038	neg	275.20186300838697	82.6743	[M-H2O-H]-
-01038	neg	279.2335891723633	85.358	[M-H]-
-01038	neg	112.26738956996373	85.3582	[M-H]-
-01038	neg	253.09350447221235	85.3629	[M-H]-
-01038	neg	215.5389658610026	86.6148	[M-H]-
-01038	neg	253.09351407564603	86.6265	[M-H]-
-01038	neg	112.26746673583985	86.6332	[M-H]-
-01038	neg	279.23352389865454	86.6391	[M-H]-
-01038	neg	295.2287030901228	87.0129	[M-H]-
-01038	neg	277.21789296468097	87.031	[M-H2O-H]-
-01038	neg	112.86786177351668	87.4522	[M-H]-
-01038	neg	281.24904479980466	88.7138	[M-H]-
-01038	neg	293.2128155048077	90.1402	[M-H]-
-01038	neg	216.73957061767578	90.1783	[M-H]-
-01038	neg	112.86803521050348	90.3739	[M-H]-
-01038	neg	255.23353068033853	91.1331	[M-H]-
-01038	neg	265.14827336491766	96.4794	[M-H]-
-01038	neg	271.2282485961914	100.119	[M-H]-
+11215	pos	118.085804	1	117.078528	13.4205	630	[M+H]+	(13 names) 2R-Hydroxymethyl-3S-hydroxypyrrolidine;(+)-2R,3S)-2-(Hydroxymethyl)-3-hydroxypyrrolidine;N-Methyl-a-aminoisobutyric acid;4-Methylaminobutyrate;gamma-N-Methylaminobutyrate;Betaine;5-Aminopentanoic acid...
+11215	pos	127.331848	1	126.324572	20.3306	1072	[M+H]+	
+11215	pos	132.076244	1	131.068968	12.1479	362	[M+H]+	(2 names) Creatine;Beta-Guanidinopropionic acid
+11215	pos	132.101361	1	131.094085	14.2194	809	[M+H]+	(12 names) 3-Aminocaproic acid;6-Deoxyfagomine;1-Nitrohexane;beta-Alaninebetaine;N-(2-Hydroxyethyl)-morpholine;Isoleucine;Beta-Leucine;N,N-Diethylglycine;Aminocaproic acid;N-methylvaline;Leucine;L-Norleucine
+11215	pos	132.101386	1	131.094109	19.131	967	[M+H]+	(12 names) 3-Aminocaproic acid;6-Deoxyfagomine;1-Nitrohexane;beta-Alaninebetaine;N-(2-Hydroxyethyl)-morpholine;Isoleucine;Beta-Leucine;N,N-Diethylglycine;Aminocaproic acid;N-methylvaline;Leucine;L-Norleucine
+11215	pos	132.101414	1	131.094138	19.9909	1054	[M+H]+	(12 names) 3-Aminocaproic acid;6-Deoxyfagomine;1-Nitrohexane;beta-Alaninebetaine;N-(2-Hydroxyethyl)-morpholine;Isoleucine;Beta-Leucine;N,N-Diethylglycine;Aminocaproic acid;N-methylvaline;Leucine;L-Norleucine
+11215	pos	147.075864	1	146.068588	11.6969	283	[M+H]+	(6 names) 3-Ureidoisobutyrate;Alanylglycine;Isoglutamine;4,5-Diamino-5-oxopentanoic acid;DL-Isoglutamine;L-Glutamine
+11215	pos	148.059976	1	147.0527	11.8748	335	[M+H]+	(16 names) 3-Aminopentanedioate;Isoglutamate;Isoglutamic acid;3-Aminopentanedioic acid;O-Acetylserine;N-lactoyl-Glycine;3-(Carboxymethylamino)propanoic acid;N-Acetylserine;L-4-Hydroxyglutamate semialdehyde;N-Met...
+11215	pos	150.057739	1	149.050463	18.8432	866	[M+H]+	(2 names) Methionine;Penicillamine
+11215	pos	151.034598	1	150.027321	9.5835	18	[M+H]+	
+11215	pos	154.172082	1	153.164806	28.3605	1307	[M+H]+	
+11215	pos	159.112076	1	117.07825	13.3802	628	[M+ACN+H]+	(13 names) 2R-Hydroxymethyl-3S-hydroxypyrrolidine;(+)-2R,3S)-2-(Hydroxymethyl)-3-hydroxypyrrolidine;N-Methyl-a-aminoisobutyric acid;4-Methylaminobutyrate;gamma-N-Methylaminobutyrate;Betaine;5-Aminopentanoic acid...
+11215	pos	162.112439	1	161.105163	11.8641	337	[M+H]+	(2 names) L-Carnitine;Deoxyvalidamine
+11215	pos	166.085448	1	165.078171	26.5363	1204	[M+H]+	(19 names) Gentiatibetine;p-(Acetylamino)benzyl alcohol;Methyl N-methylanthranilate;3-Pyridinebutanoic acid;Benzyl glycinate;Ethyl 2-aminobenzoate;Norsalsolinol;4-Hydroxy-1-(3-pyridinyl)-1-butanone;L-Phenylalani...
+11215	pos	173.127599	1	172.120323	20.0177	1056	[M+H]+	
+11215	pos	173.1276	1	131.093775	14.2274	811	[M+ACN+H]+	(12 names) 3-Aminocaproic acid;6-Deoxyfagomine;1-Nitrohexane;beta-Alaninebetaine;N-(2-Hydroxyethyl)-morpholine;Isoleucine;Beta-Leucine;N,N-Diethylglycine;Aminocaproic acid;N-methylvaline;Leucine;L-Norleucine
+11215	pos	173.128372	1	131.094547	19.1458	968	[M+ACN+H]+	(12 names) 3-Aminocaproic acid;6-Deoxyfagomine;1-Nitrohexane;beta-Alaninebetaine;N-(2-Hydroxyethyl)-morpholine;Isoleucine;Beta-Leucine;N,N-Diethylglycine;Aminocaproic acid;N-methylvaline;Leucine;L-Norleucine
+11215	pos	173.128379	1	131.094553	14.1967	805	[M+ACN+H]+	(12 names) 3-Aminocaproic acid;6-Deoxyfagomine;1-Nitrohexane;beta-Alaninebetaine;N-(2-Hydroxyethyl)-morpholine;Isoleucine;Beta-Leucine;N,N-Diethylglycine;Aminocaproic acid;N-methylvaline;Leucine;L-Norleucine
+11215	pos	182.080294	1	181.073018	13.6508	760	[M+H]+	(11 names) 4,6,7-Trihydroxy-1,2,3,4-tetrahydroisoquinoline;Lysichitalexin;2-(4-Methyloxyphenyl)-1-nitroethane;o-Tyrosine;gamma-Hydroxy-3-pyridinebutanoate;N-Hydroxy-L-phenylalanine;2-(Hydroxyamino)-3-phenylpropa...
+11215	pos	182.08108	1	181.073804	19.0095	954	[M+H]+	(11 names) 4,6,7-Trihydroxy-1,2,3,4-tetrahydroisoquinoline;Lysichitalexin;2-(4-Methyloxyphenyl)-1-nitroethane;o-Tyrosine;gamma-Hydroxy-3-pyridinebutanoate;N-Hydroxy-L-phenylalanine;2-(Hydroxyamino)-3-phenylpropa...
+11215	pos	188.070541	1	187.063265	33.4007	2280	[M+H]+	(5 names) Indoleacrylic acid;N-Methylquinolinium-2-carboxylate;N-(2,5-Dihydroxyphenyl)pyridinium(1+);Indole-3-acrylic acid;Deethylatrazine
+11215	pos	197.039732	1	196.032456	9.55601	16	[M+H]+	
+11215	pos	197.040634	1	196.033358	9.60219	21	[M+H]+	
+11215	pos	198.086304	1	197.079027	10.4573	50	[M+H]+	
+11215	pos	198.087193	1	197.079917	10.4148	44	[M+H]+	(4 names) HC Red No. 3;2-[(4-Amino-2-nitrophenyl)amino]-ethanol;N-Acetylhistidine;Methyl5-(but-3-en-1-yl)amino-1,3,4-oxadiazole-2-carboxylate
+11215	pos	199.987827	1	198.98055	46.7167	5437	[M+H]+	
+11215	pos	203.138965	1	202.131688	31.6205	1800	[M+H]+	(4 names) Alanyl-Isoleucine;Isoleucyl-Alanine;Alanyl-Leucine;Leucyl-Alanine
+11215	pos	204.105309	1	203.098033	45.7235	5342	[M+H]+	
+11215	pos	204.121918	1	203.114641	13.5786	640	[M+H]+	
+11215	pos	204.122914	1	203.115637	18.801	858	[M+H]+	(7 names) Hyacinthacine B5;(-)-Hyacinthacine B5;L-Acetylcarnitine;Hyacinthacine B1;(+)-Hyacinthacine B1;(1S,2R,3R,5R,7aR)-1,2-Dihydroxy-3,5-dihydroxymethylpyrrolizidine;N-lactoyl-Leucine
+11215	pos	204.123125	1	203.115848	44.5515	5208	[M+H]+	(7 names) Hyacinthacine B5;(-)-Hyacinthacine B5;L-Acetylcarnitine;Hyacinthacine B1;(+)-Hyacinthacine B1;(1S,2R,3R,5R,7aR)-1,2-Dihydroxy-3,5-dihydroxymethylpyrrolizidine;N-lactoyl-Leucine
+11215	pos	205.097191	1	187.063366	33.4016	2279	[M+NH4]+	(5 names) Indoleacrylic acid;N-Methylquinolinium-2-carboxylate;N-(2,5-Dihydroxyphenyl)pyridinium(1+);Indole-3-acrylic acid;Deethylatrazine
+11215	pos	207.111636	1	165.07781	26.524	1195	[M+ACN+H]+	
+11215	pos	208.116036	1	207.10876	26.6367	1214	[M+H]+	
+11215	pos	215.069604	1	214.062327	11.7094	291	[M+H]+	(15 names) 1-Hydro-1,1a-dihydroxy-9-fluorenone;4,4'-Dihydroxybenzophenone;4,5'-Dimethylangelicin;4-Formyl-1-methoxycarbonylazulene;4'-Hydroxy-2-biphenylcarboxylic acid;2,2'-Dihydroxybenzophenone;Phenyl salicylat...
+11215	pos	215.138818	1	214.131541	14.2557	812	[M+H]+	(3 names) Valyl-Proline;Prolyl-Valine;Dethiobiotin
+11215	pos	215.138894	1	214.131618	23.5807	1105	[M+H]+	(3 names) Valyl-Proline;Prolyl-Valine;Dethiobiotin
+11215	pos	215.138907	1	214.13163	20.9757	1079	[M+H]+	(3 names) Valyl-Proline;Prolyl-Valine;Dethiobiotin
+11215	pos	217.064043	1	216.056766	20.7659	1076	[M+H]+	(2 names) 6-Aminopenicillanic acid;Bisnorbiotin
+11215	pos	218.113516	1	217.10624	11.5935	265	[M+H]+	(4 names) Alanyl-Gamma-glutamate;Alanyl-Glutamine;N-a-Acetylcitrulline;Glutaminyl-Alanine
+11215	pos	218.120894	1	217.113618	51.5622	5779	[M+H]+	
+11215	pos	218.138571	1	217.131295	21.34	1085	[M+H]+	(2 names) Aclatonium;Propionylcarnitine
+11215	pos	218.138641	1	217.131365	14.1303	804	[M+H]+	(2 names) Aclatonium;Propionylcarnitine
+11215	pos	218.14871	1	217.141434	10.1897	24	[M+H]+	
+11215	pos	218.149797	1	217.14252	10.0816	23	[M+H]+	(4 names) gamma-L-Glutamylputrescine;Alanyl-Lysine;Lysyl-Alanine;beta-Alanyl-L-lysine
+11215	pos	220.117879	1	219.110602	28.0602	1265	[M+H]+	(3 names) Pantothenic acid;Hyacinthacine C1;(+)-Hyacinthacine C1
+11215	pos	223.107569	1	181.073743	19.0138	955	[M+ACN+H]+	(11 names) 4,6,7-Trihydroxy-1,2,3,4-tetrahydroisoquinoline;Lysichitalexin;2-(4-Methyloxyphenyl)-1-nitroethane;o-Tyrosine;gamma-Hydroxy-3-pyridinebutanoate;N-Hydroxy-L-phenylalanine;2-(Hydroxyamino)-3-phenylpropa...
+11215	pos	223.107626	1	222.10035	13.6597	767	[M+H]+	(4 names) Phenylalanyl-Glycine;N5-Phenyl-L-glutamine;gamma-Glutamylanilide;Glycyl-Phenylalanine
+11215	pos	224.185587	1	223.17831	53.0818	5797	[M+H]+	
+11215	pos	227.113913	1	226.106637	10.5023	71	[M+H]+	(4 names) Histidinyl-Alanine;Alanyl-Histidine;Carnosine;(6R)-6-(L-Erythro-1,2-Dihydroxypropyl)-5,6,7,8-tetrahydro-4a-hydroxypterin
+11215	pos	227.124972	1	226.117695	18.0945	837	[M+H]+	
+11215	pos	227.125229	1	226.117952	40.7299	4376	[M+H]+	
+11215	pos	227.982669	1	226.975392	30.5645	1600	[M+H]+	
+11215	pos	227.982828	1	226.975551	41.0945	4492	[M+H]+	
+11215	pos	227.982857	1	226.975581	46.6918	5434	[M+H]+	
+11215	pos	228.117055	1	227.109779	10.6108	134	[M+H]+	
+11215	pos	229.154574	1	228.147298	18.9064	884	[M+H]+	(2 names) Leucyl-Proline;Isoleucyl-Proline
+11215	pos	229.154588	1	228.147312	13.6228	699	[M+H]+	(2 names) Leucyl-Proline;Isoleucyl-Proline
+11215	pos	229.154616	1	228.147339	30.1354	1543	[M+H]+	(2 names) Leucyl-Proline;Isoleucyl-Proline
+11215	pos	229.154626	1	228.14735	31.4998	1766	[M+H]+	(2 names) Leucyl-Proline;Isoleucyl-Proline
+11215	pos	230.156787	1	229.149511	13.6211	664	[M+H]+	
+11215	pos	230.157852	1	229.150576	19.3811	977	[M+H]+	
+11215	pos	232.136536	1	231.129259	57.0222	5820	[M+H]+	
+11215	pos	232.154311	1	231.147035	30.6849	1622	[M+H]+	(3 names) N(alpha)-t-Butoxycarbonyl-L-leucine;Butyrylcarnitine;isobutyrylcarnitine
+11215	pos	233.149351	1	232.142074	12.462	498	[M+H]+	(5 names) Threoninyl-Leucine;Leucyl-Threonine;Spermic acid 2;Threoninyl-Isoleucine;Isoleucyl-Threonine
+11215	pos	233.156333	1	232.149057	30.5812	1602	[M+H]+	3-Mercaptohexyl hexanoate
+11215	pos	234.115848	1	233.108571	45.7529	5349	[M+H]+	
+11215	pos	235.164984	1	234.157708	12.4453	496	[M+H]+	
+11215	pos	235.670376	1	234.663099	29.1813	1384	[M+H]+	
+11215	pos	236.641994	1	235.634717	30.4881	1592	[M+H]+	
+11215	pos	237.123391	1	236.116115	34.0397	2454	[M+H]+	(6 names) Alanyl-Phenylalanine;O-Desmethyl-lacosamide;N-acetyl-5-methoxykynuramine;Carbetamide;Hexobarbital;Phenylalanyl-Alanine
+11215	pos	238.10753	1	237.100254	47.0976	5500	[M+H]+	(6 names) Funebral;Cotarnine;Fumariflorine;N-lactoyl-Phenylalanine;3-Hydroxy-carbofuran;Salsoline-1-carboxylate
+11215	pos	240.067621	1	239.060344	32.3057	2001	[M+H]+	
+11215	pos	240.068945	1	239.061669	32.3141	2002	[M+H]+	(2 names) Thiobutacin;S-Phenylmercapturic acid
+11215	pos	240.152464	1	239.145187	31.1007	1689	[M+H]+	
+11215	pos	241.129383	1	240.122107	12.8391	511	[M+H]+	(5 names) Anserine;N(alpha)-gamma-L-Glutamylhistamine;Nalpha-gamma-L-glutamylhistamine;Balenine;Homocarnosine
+11215	pos	241.129534	1	240.122257	10.6908	155	[M+H]+	(5 names) Anserine;N(alpha)-gamma-L-Glutamylhistamine;Nalpha-gamma-L-glutamylhistamine;Balenine;Homocarnosine
+11215	pos	241.154554	1	240.147278	19.3488	976	[M+H]+	Pirbuterol
+11215	pos	241.154564	1	240.147287	13.6632	769	[M+H]+	Pirbuterol
+11215	pos	242.131454	1	241.124178	10.7154	167	[M+H]+	Erythrohydrobupropion
+11215	pos	242.88345	1	241.876173	11.3246	244	[M+H]+	
+11215	pos	245.078699	1	244.071422	11.6914	295	[M+H]+	
+11215	pos	245.080173	1	244.072896	11.7872	319	[M+H]+	(31 names) Cearoin;2,5-Dihydroxy-4-methoxybenzophenone;Obliquin;Wyerone acid;Gnetol;Alloxanthoxyletol;Norbraylin;(+)-Elisin;Fulvoplumierin;5-Hydroxyseselin;Eriobofuran;Belamphenone;(R)-Apiumetin;2,6-Dihydroxy-4-...
+11215	pos	245.113152	1	244.105876	12.8511	515	[M+H]+	(5 names) Prolyl-Glutamate;Hydroxyprolyl-Hydroxyproline;(2S,4S)-Pinnatanine;Glutamyl-Proline;Palythine
+11215	pos	245.134012	1	244.126735	12.358	491	[M+H]+	
+11215	pos	245.135661	1	262.138949	12.2925	484	[M-H2O+H]+	Streptidine
+11215	pos	246.123706	1	0.0	33.3823	2278	[M+C2H6N2+H]+, [M+ACN+NH4]+	(5 names) Indoleacrylic acid;N-Methylquinolinium-2-carboxylate;N-(2,5-Dihydroxyphenyl)pyridinium(1+);Indole-3-acrylic acid;Deethylatrazine
+11215	pos	246.144765	1	245.137488	27.8084	1247	[M+H]+	(7 names) Glutaminyl-Valine;Asparaginyl-Isoleucine;Valyl-Gamma-glutamate;Valyl-Glutamine;Asparaginyl-Leucine;Isoleucyl-Asparagine;Leucyl-Asparagine
+11215	pos	246.152151	1	245.144875	62.4463	5839	[M+H]+	S-3-oxodecanoyl cysteamine
+11215	pos	246.170063	1	245.162787	37.7724	3638	[M+H]+	(6 names) Isovalerylcarnitine;pivaloylcarnitine;2-Methylbutyroylcarnitine;alpha-5-C-(3-Hydroxybutyl)-hyacinthacine A2;(-)-alpha-5-C-(3-Hydroxybutyl)-hyacinthacine A2;Valerylcarnitine
+11215	pos	246.170173	1	245.162896	36.9871	3417	[M+H]+	(6 names) Isovalerylcarnitine;pivaloylcarnitine;2-Methylbutyroylcarnitine;alpha-5-C-(3-Hydroxybutyl)-hyacinthacine A2;(-)-alpha-5-C-(3-Hydroxybutyl)-hyacinthacine A2;Valerylcarnitine;
+11215	pos	249.095848	1	226.106627	10.8764	193	[M+Na]+	(4 names) Histidinyl-Alanine;Alanyl-Histidine;Carnosine;(6R)-6-(L-Erythro-1,2-Dihydroxypropyl)-5,6,7,8-tetrahydro-4a-hydroxypterin
+11215	pos	249.155669	1	248.148392	12.3221	488	[M+H]+	(2 names) (+)-Negamycin;Negamycin
+11215	pos	249.205991	1	248.198715	72.182	5892	[M+H]+	alpha-Butyl-omega-hydroxypoly(oxyethylene) poly(oxypropylene)
+11215	pos	251.036545	1	250.029268	11.7562	308	[M+H]+	(3 names) 4,4'-Sulfonyldiphenol;Bisphenol S;1,1'-Sulfonylbis(4-hydroxybenzene)
+11215	pos	251.077456	1	250.070179	27.8048	1244	[M+H]+	
+11215	pos	253.089139	1	252.081862	73.0362	5934	[M+H]+	
+11215	pos	253.118139	1	252.110862	25.2307	1148	[M+H]+	(7 names) Phenylalanyl-Serine;3'-Hydroxyhexobarbital;3-Hydroxyhexobarbital;Epoxy-hexobarbital;Serinyl-Phenylalanine;Alanyl-Tyrosine;Tyrosyl-Alanine
+11215	pos	254.124666	1	253.11739	13.6481	747	[M+H]+	Penciclovir
+11215	pos	256.165412	1	255.158136	25.1652	1146	[M+H]+	(2 names) L-Pyrrolysine;Pyrrolysine
+11215	pos	257.116348	1	256.109072	14.2043	808	[M+H]+	(28 names) Obtusafuran;Xenognosin A;Corsifuran A;5,4'-Dimethoxy-2,3-dihydro-2-arylbenzofuran;4-Methoxybenzyl phenylacetate;Loroglossol;Broussin;Pterostilbene;3,4'-Dimethoxy-5-hydroxystilbene;4'-Methoxy-3,4-methy...
+11215	pos	257.116392	1	256.109116	14.7992	820	[M+H]+	(28 names) Obtusafuran;Xenognosin A;Corsifuran A;5,4'-Dimethoxy-2,3-dihydro-2-arylbenzofuran;4-Methoxybenzyl phenylacetate;Loroglossol;Broussin;Pterostilbene;3,4'-Dimethoxy-5-hydroxystilbene;4'-Methoxy-3,4-methy...
+11215	pos	258.07372	1	219.110562	28.1199	1272	[M+K]+	(3 names) Pantothenic acid;Hyacinthacine C1;(+)-Hyacinthacine C1
+11215	pos	258.110077	1	257.1028	11.7641	310	[M+H]+	Glycerophosphocholine
+11215	pos	259.059472	1	258.052196	11.6654	279	[M+H]+	(29 names) 1,5-Dihydroxy-6-methoxyxanthone;Mesuaxanthone A;1,5-Dihydroxy-3-methoxyxanthone;3,5-Dihydroxy-1-methoxyxanthone;1,7-Dihydroxy-6-methoxyxanthone;2,8-Dihydroxy-1-methoxyxanthone;1,3-Dihydroxy-2-methoxyx...
+11215	pos	259.092292	1	258.085015	14.0592	801	[M+H]+	(6 names) Ribothymidine;3-Methyluridine;1-Methylpseudouridine;NSC 240023;U 50228;Imidazoleacetic acid riboside
+11215	pos	259.093639	1	258.086363	18.9106	891	[M+H]+	(6 names) Ribothymidine;3-Methyluridine;1-Methylpseudouridine;NSC 240023;U 50228;Imidazoleacetic acid riboside
+11215	pos	260.185701	1	259.178425	43.6687	5031	[M+H]+	Hexanoylcarnitine
+11215	pos	261.144396	1	260.137119	33.2908	2261	[M+H]+	(6 names) Leucyl-Glutamate;Glutamyl-Leucine;L-gamma-glutamyl-L-leucine;Isoleucyl-Glutamate;L-gamma-glutamyl-L-isoleucine;Glutamyl-Isoleucine
+11215	pos	262.128308	1	261.121032	18.8917	875	[M+H]+	(7 names) Epidermin;Succinylcarnitine;Methylmalonylcarnitine;Mycosporine;Heterodendrin;Lotaustralin;Camelinin
+11215	pos	262.128485	1	261.121209	13.5995	646	[M+H]+	(7 names) Epidermin;Succinylcarnitine;Methylmalonylcarnitine;Mycosporine;Heterodendrin;Lotaustralin;Camelinin
+11215	pos	262.164757	1	261.15748	21.1786	1082	[M+H]+	(2 names) hydroxyisovaleroyl carnitine;3-hydroxyisovalerylcarnitine
+11215	pos	262.857239	1	279.860527	105.515	6747	[M-H2O+H]+	
+11215	pos	263.069444	1	262.062167	24.1532	1119	[M+H]+	(2 names) Lanceolatin B (flavonoid);Furano[2'',3'':6,7]aurone
+11215	pos	263.08486	1	262.077584	43.7248	5037	[M+H]+	
+11215	pos	263.111544	1	240.122322	10.9725	206	[M+Na]+	(5 names) Anserine;N(alpha)-gamma-L-Glutamylhistamine;Nalpha-gamma-L-glutamylhistamine;Balenine;Homocarnosine
+11215	pos	263.139192	1	262.131916	36.1898	3165	[M+H]+	(7 names) L-prolyl-L-phenylalanine;12-Carboxycytisine ethyl ester;Ethyl cytisine-12-carboxylate;Bohemamine;L-phenylalanyl-L-proline;Methohexital;Physovenine
+11215	pos	263.146112	1	262.138836	12.167	372	[M+H]+	Streptidine
+11215	pos	263.173355	1	262.166079	32.4507	2031	[M+H]+	
+11215	pos	264.147791	1	263.140514	12.1599	361	[M+H]+	
+11215	pos	265.015435	1	264.008159	9.57594	19	[M+H]+	
+11215	pos	265.068134	1	264.060857	11.0638	218	[M+H]+	
+11215	pos	265.069836	1	226.106678	10.9188	195	[M+K]+	(4 names) Histidinyl-Alanine;Alanyl-Histidine;Carnosine;(6R)-6-(L-Erythro-1,2-Dihydroxypropyl)-5,6,7,8-tetrahydro-4a-hydroxypterin
+11215	pos	265.110046	1	264.10277	11.5164	262	[M+H]+	(3 names) 2-(6'-Methylthio)hexylmalic acid;3-(6'-Methylthio)hexylmalic acid;3-(6'-Methylthio)hexylmalate
+11215	pos	265.111853	1	264.104577	11.4923	259	[M+H]+	Thiamine
+11215	pos	265.175663	1	219.110537	28.0352	1254	[M+C2H7N+H]+	(3 names) Pantothenic acid;Hyacinthacine C1;(+)-Hyacinthacine C1
+11215	pos	266.016272	1	265.008996	9.53809	17	[M+H]+	
+11215	pos	266.088252	1	265.080976	18.9039	882	[M+H]+	5'-Dehydroadenosine
+11215	pos	266.232516	1	248.198691	72.2301	5893	[M+NH4]+	alpha-Butyl-omega-hydroxypoly(oxyethylene) poly(oxypropylene)
+11215	pos	267.17191	1	266.164633	88.5697	6249	[M+H]+	(2 names) Tributyl phosphate;TBP
+11215	pos	267.235947	1	266.22867	72.3346	5900	[M+H]+	
+11215	pos	267.268319	1	266.261042	102.385	6544	[M+H]+	(13 names) 2-Tetradecylcyclobutanone;7Z-Octadecen-11-one;2E,13Z-octadecadien-1-ol;9,12-Octadecadien-1-ol;14E-Octadecenal;13E-Octadecenal;17-Octadecenal;11-octadecenal;16-Octadecenal;3Z,13Z-octadecadien-1-ol;2E-O...
+11215	pos	267.268331	1	266.261054	101.576	6458	[M+H]+	(13 names) 2-Tetradecylcyclobutanone;7Z-Octadecen-11-one;2E,13Z-octadecadien-1-ol;9,12-Octadecadien-1-ol;14E-Octadecenal;13E-Octadecenal;17-Octadecenal;11-octadecenal;16-Octadecenal;3Z,13Z-octadecadien-1-ol;2E-O...
+11215	pos	268.140131	1	267.132855	19.1155	964	[M+H]+	Voglibose
+11215	pos	268.840961	1	267.833685	22.8327	1091	[M+H]+	
+11215	pos	269.087904	1	268.080627	19.8493	986	[M+H]+	(16 names) 6-Isoinosine;Allopurinol riboside;Formycin B;Laurusin;NSC 106486;Ohyamycin;Inosine;2-O-(alpha-D-Glucopyranosyl)-D-glycerate;(R)-2-(alpha-D-Glucopyranosyloxy)-3-hydroxypropanoate;3-Deoxy-D-glycero-D-ga...
+11215	pos	269.087914	1	268.080638	13.6652	770	[M+H]+	(16 names) 6-Isoinosine;Allopurinol riboside;Formycin B;Laurusin;NSC 106486;Ohyamycin;Inosine;2-O-(alpha-D-Glucopyranosyl)-D-glycerate;(R)-2-(alpha-D-Glucopyranosyloxy)-3-hydroxypropanoate;3-Deoxy-D-glycero-D-ga...
+11215	pos	269.088	1	268.080724	27.1456	1221	[M+H]+	(16 names) 6-Isoinosine;Allopurinol riboside;Formycin B;Laurusin;NSC 106486;Ohyamycin;Inosine;2-O-(alpha-D-Glucopyranosyl)-D-glycerate;(R)-2-(alpha-D-Glucopyranosyloxy)-3-hydroxypropanoate;3-Deoxy-D-glycero-D-ga...
+11215	pos	269.122656	1	268.11538	12.8508	514	[M+H]+	
+11215	pos	269.124281	1	268.117004	12.84	512	[M+H]+	(5 names) Pentostatin;Dexrazoxane;Hydroxyprolyl-Histidine;Acetylcarnosine;Histidinyl-Hydroxyproline
+11215	pos	269.135461	1	268.128185	13.439	631	[M+H]+	
+11215	pos	269.226425	1	268.219149	102.961	6622	[M+H]+	anhydroretinol
+11215	pos	270.089551	1	269.082274	13.6758	780	[M+H]+	
+11215	pos	271.187944	1	248.198723	72.2305	5894	[M+Na]+	alpha-Butyl-omega-hydroxypoly(oxyethylene) poly(oxypropylene)
+11215	pos	272.091095	1	271.083819	11.6382	272	[M+H]+	(9 names) Xanthoxoline;Clausine K;Clauszoline J;Koeniginequinone B;4-hydroxy ketorolac;Pummeline;N-Benzoyl-4-methoxyanthranilate;trans-4-methoxy-4'-nitrostilbene oxide;Citrusamine
+11215	pos	273.074998	1	272.067722	11.8404	333	[M+H]+	(61 names) Alternariol monomethyl ether;3,4'-Dihydroxy-5-methoxy-6'-methyldibenzo[a]pyrone;TMC-256A1;4-Hydroxydemethylmedicarpin;1,6-Dihydroxy-3-methoxy-8-methylxanthone;Griseoxanthone C;5,7,3'-Trihydroxyflavano...
+11215	pos	273.084045	1	272.076769	18.919	905	[M+H]+	
+11215	pos	273.084164	1	272.076888	13.6289	717	[M+H]+	
+11215	pos	273.827067	1	272.819791	28.9913	1369	[M+H]+	
+11215	pos	273.828755	1	818.464435	28.9878	1367	[M+3H]3+	
+11215	pos	274.00658	1	272.999304	8.51504	6	[M+H]+	
+11215	pos	274.161551	1	273.154275	28.9507	1364	[M+H]+	
+11215	pos	274.873408	1	273.866132	11.4284	257	[M+H]+	
+11215	pos	275.171368	1	274.164092	13.1547	619	[M+H]+	(3 names) Glutaminyl-Lysine;Lysyl-Gamma-glutamate;Lysyl-Glutamine
+11215	pos	276.12646	1	275.119184	42.1717	4753	[M+H]+	
+11215	pos	276.134371	1	275.127095	36.8682	3382	[M+H]+	(3 names) Tryptophyl-Alanine;Alanyl-Tryptophan;Alanyltryptophan
+11215	pos	277.10296	1	276.095684	12.8613	517	[M+H]+	(7 names) C20912;Tabtoxin biosynthesis intermediate 2;(5-L-Glutamyl)-L-glutamate;Glutamyl-Glutamate;Thymidine glycol;Triphenylsilanol;Triphenylhydroxysilane
+11215	pos	279.085383	1	240.122225	11.065	216	[M+K]+	(5 names) Anserine;N(alpha)-gamma-L-Glutamylhistamine;Nalpha-gamma-L-glutamylhistamine;Balenine;Homocarnosine
+11215	pos	279.100668	1	278.093392	25.3212	1152	[M+H]+	(8 names) Methionyl-Glutamate;N-gamma-L-Glutamyl-L-methionine;Glutamyl-Methionine;Caledonixanthone B;1,2-Dihydrotanshinone;Dihydroisotanshinone II;Ovalitenin A;Methylene tanshinquinone
+11215	pos	279.133911	1	278.126635	28.4746	1318	[M+H]+	(5 names) Prolyl-Tyrosine;Tyrosyl-Proline;Phenylalanyl-Hydroxyproline;N1-(alpha-D-ribosyl)-5,6-dimethyl-benzimidazole;Oxadixyl
+11215	pos	280.263519	1	279.256243	102.397	6577	[M+H]+	Linoleamide
+11215	pos	280.86764	1	279.860364	105.519	6748	[M+H]+	
+11215	pos	281.083441	1	280.076165	11.1624	230	[M+H]+	
+11215	pos	283.140045	1	282.132769	13.053	590	[M+H]+	
+11215	pos	283.280389	1	282.273113	104.977	6687	[M+H]+	
+11215	pos	284.098785	1	283.091509	19.7964	980	[M+H]+	(3 names) Crotonoside;8-Hydroxy-deoxyguanosine;Guanosine
+11215	pos	284.098816	1	283.091539	13.6495	763	[M+H]+	(3 names) Crotonoside;8-Hydroxy-deoxyguanosine;Guanosine
+11215	pos	285.082729	1	284.075452	22.9854	1092	[M+H]+	(5 names) Oxoformycin;Oxoformycin B;NSC 359452;Oxanosine;Xanthosine
+11215	pos	285.133263	1	284.125987	72.3634	5914	[M+H]+	(4 names) 2-Phenylethyl beta-D-glucopyranoside;Karalicin;1-(R)-Phenylethyl beta-D-glucopyranoside;Clonostachydiol
+11215	pos	285.278583	1	284.271306	101.61	6491	[M+H]+	(27 names) Ethyl palmitate;octyl decanoate;11,15-dimethyl-hexadecanoic acid;Hexadecyl acetate;dodecyl hexanoate;10-methyl-heptadecanoic acid;4,8-dimethyl-hexadecanoic acid;lambda isostearic acid;6,14-dimethyl-he...
+11215	pos	286.096484	1	285.089207	18.8753	869	[M+H]+	
+11215	pos	286.096671	1	285.089394	13.6215	657	[M+H]+	
+11215	pos	286.201263	1	285.193987	48.3659	5649	[M+H]+	(3 names) 2-Octenoylcarnitine;Heliovicine;(2E)-octenoylcarnitine
+11215	pos	286.201291	1	285.194015	49.0744	5735	[M+H]+	(3 names) 2-Octenoylcarnitine;Heliovicine;(2E)-octenoylcarnitine
+11215	pos	288.216827	1	287.209551	52.6251	5794	[M+H]+	L-Octanoylcarnitine
+11215	pos	289.686865	1	288.679589	37.5805	3590	[M+H]+	
+11215	pos	290.847168	1	289.839892	11.4224	256	[M+H]+	
+11215	pos	291.136736	1	290.129459	80.5631	6102	[M+H]+	(3 names) trans-3,4-Dihydro-3,4-dihydroxy-7,12-dimethylbenz[a]anthracene;trans-5,6-Dihydro-5,6-dihydroxy-7,12-dimethylbenz[a]anthracene;2-(4-Methyl-3-pentenyl)anthraquinone
+11215	pos	293.143658	1	292.136382	11.6324	270	[M+H]+	
+11215	pos	293.145618	1	292.138342	11.6135	268	[M+H]+	
+11215	pos	295.128845	1	294.121569	41.051	4482	[M+H]+	(10 names) L-gamma-Glutamyl-beta-phenyl-beta-L-alanine;Glutamyl-Phenylalanine;Hydroxyprolyl-Tyrosine;Tyrosyl-Hydroxyproline;4'-tert-Butyl-2',6'-dimethyl-3',5'-dinitroacetophenone;Glutamylphenylalanine;Aspartame;...
+11215	pos	295.128858	1	294.121581	35.4188	2889	[M+H]+	(10 names) L-gamma-Glutamyl-beta-phenyl-beta-L-alanine;Glutamyl-Phenylalanine;Hydroxyprolyl-Tyrosine;Tyrosyl-Hydroxyproline;4'-tert-Butyl-2',6'-dimethyl-3',5'-dinitroacetophenone;Glutamylphenylalanine;Aspartame;...
+11215	pos	297.290019	1	255.256193	104.672	6645	[M+ACN+H]+	Palmitamide
+11215	pos	298.096767	1	297.089491	32.2085	1976	[M+H]+	5'-Methylthioadenosine
+11215	pos	299.258096	1	298.25082	90.2542	6295	[M+H]+	(39 names) 9-HOME(10Z);6R,7S-epoxy-octadecanoic acid;14-oxo-octadecanoic acid;10-HOME(8);11-HOME(9);11-Oxooctadecanoic acid;9S,10R-epoxy-stearic acid;9-HOME(12);16-oxo-octadecanoic acid;alpha-Cycloheptaneundecan...
+11215	pos	300.197266	1	299.189989	30.1996	1550	[M+H]+	(5 names) YL 02729S;YM 30059;2-(Nonan-8-one)-4-methoxy-quinoline;Ethylketocyclazocine;EKC
+11215	pos	300.289517	1	299.282241	70.66	5878	[M+H]+	(7 names) (8Z,d18:1) sphingosine;2-amino-octadecanoic acid;5-hydroxy,3E-sphingosine;12-amino-octadecanoic acid;Sphingosine;Palmitoyl-EA;3-Ketosphinganine
+11215	pos	300.289777	1	299.2825	102.16	6524	[M+H]+	(7 names) (8Z,d18:1) sphingosine;2-amino-octadecanoic acid;5-hydroxy,3E-sphingosine;12-amino-octadecanoic acid;Sphingosine;Palmitoyl-EA;3-Ketosphinganine
+11215	pos	301.067267	1	300.05999	11.3675	255	[M+H]+	
+11215	pos	301.067416	1	278.078195	11.0881	221	[M+Na]+	(4 names) Alternarienonic acid;3-Hydroxy-6,7,8-trimethoxy-2-naphthoate;Citreoisocoumarin;Coumarleucasin
+11215	pos	302.149862	1	301.142585	39.0594	3938	[M+H]+	(4 names) Febrifugine;Isofebrifugine;Prolyl-Tryptophan;Tryptophyl-Proline
+11215	pos	302.170905	1	301.163628	24.5347	1127	[M+H]+	(2 names) (Ac)2-L-Lys-D-Ala;(Ac)2-L-lysyl-D-alanine
+11215	pos	302.214758	1	301.207482	63.5447	5847	[M+H]+	
+11215	pos	302.30523	1	301.297954	72.2477	5895	[M+H]+	(2 names) Enigmol;Sphinganine
+11215	pos	303.88342	1	302.876143	5.51105	1	[M+H]+	
+11215	pos	304.212024	1	303.204747	44.3056	5130	[M+H]+	3-hydroxyoctanoyl carnitine
+11215	pos	304.299644	1	303.292367	74.627	6041	[M+H]+	
+11215	pos	305.152863	1	304.145586	50.2475	5755	[M+H]+	
+11215	pos	307.043623	1	306.036347	13.8151	793	[M+H]+	(2 names) Methyl brevifolin carboxylate;2-(3,4-Dihydroxybenzoyloxy)-4,6-dihydroxybenzoate
+11215	pos	307.083196	1	612.15184	13.0839	602	[M+2H]2+	Oxidized glutathione
+11215	pos	307.165027	1	306.15775	30.2842	1555	[M+H]+	(3 names) Metacytofilin;Antibiotic KO 7888B;Phthoxazolin B
+11215	pos	308.080548	1	307.073272	18.83	864	[M+H]+	
+11215	pos	308.081165	1	307.073889	13.1062	610	[M+H]+	
+11215	pos	308.088654	1	307.081377	18.8101	861	[M+H]+	
+11215	pos	308.090186	1	307.082909	18.9615	940	[M+H]+	Glutathione
+11215	pos	308.090817	1	307.08354	18.8093	859	[M+H]+	(11 names) Glutathione;Stealthin C;Norcepharadione B;Artabonatine A;Aristolodione;Pareirubrine B;Daurioxoisoporphine D;Peruvianine;Artabonatine D;Hallacridone;Isomoschatoline
+11215	pos	308.090827	1	307.08355	13.5733	639	[M+H]+	(11 names) Glutathione;Stealthin C;Norcepharadione B;Artabonatine A;Aristolodione;Pareirubrine B;Daurioxoisoporphine D;Peruvianine;Artabonatine D;Hallacridone;Isomoschatoline
+11215	pos	309.094189	1	308.086913	13.7379	785	[M+H]+	Clobenpropit
+11215	pos	310.086609	1	309.079332	18.8049	860	[M+H]+	Glycodiazine
+11215	pos	310.175867	1	309.168591	22.8126	1090	[M+H]+	(4 names) Isopropalin;;Tyrosyl-Lysine;Lysyl-Tyrosine
+11215	pos	310.201148	1	309.193872	52.3295	5789	[M+H]+	(4 names) 6-Hydroxynobiline;Metipranolol;(2E,5Z,7E)-decatrienoylcarnitine;Nadolol
+11215	pos	311.431519	1	1241.696968	29.8066	1478	[M+4H]4+	
+11215	pos	312.191626	1	311.18435	28.5172	1322	[M+H]+	
+11215	pos	312.526843	1	311.519567	24.8324	1139	[M+H]+	
+11215	pos	313.23725	1	312.229974	74.4181	6038	[M+H]+	(34 names) 11-HpODE;7S,8S-DiHODE;15,16-DiHODE;10-oxo-13-hydroxy-11-octadecenoic acid;8,13-DiHODE;12-HpODE;9-oxo-13-hydroxy-11-octadecenoic acid;9S-HpODE;9,14-DiHODE;gamma- 9,10-DiHODE;9,10-DiHODE;10S,11S-epoxy-9...
+11215	pos	314.933395	1	313.926119	9.08426	12	[M+H]+	
+11215	pos	314.935519	1	1255.71297	9.07665	11	[M+4H]4+	
+11215	pos	315.252864	1	314.245588	78.9527	6072	[M+H]+	(25 names) 8-HpOME(6E);7-HpOME(5E);12R-HpOME(13E);12,13-DHOME;12-HpOME(10E);8-HpOME;Dibutyl decanedioate;8R,11S-DiHOME;7S,10S-diHOME;Octadecanedioic acid;6-HpOME(7E);9,10-Epoxy-18-hydroxystearate;9,13-DiHOME(11)...
+11215	pos	315.252967	1	314.245691	78.1636	6067	[M+H]+	(25 names) 8-HpOME(6E);7-HpOME(5E);12R-HpOME(13E);12,13-DHOME;12-HpOME(10E);8-HpOME;Dibutyl decanedioate;8R,11S-DiHOME;7S,10S-diHOME;Octadecanedioic acid;6-HpOME(7E);9,10-Epoxy-18-hydroxystearate;9,13-DiHOME(11)...
+11215	pos	315.434753	1	314.427477	9.08799	13	[M+H]+	
+11215	pos	315.437144	1	314.429868	8.32194	4	[M+H]+	
+11215	pos	316.186446	1	315.179169	25.5194	1159	[M+H]+	
+11215	pos	316.186762	1	315.179486	23.3657	1099	[M+H]+	
+11215	pos	316.248037	1	315.24076	59.6996	5831	[M+H]+	Decanoylcarnitine
+11215	pos	317.041314	1	278.078156	11.1309	229	[M+K]+	(4 names) Alternarienonic acid;3-Hydroxy-6,7,8-trimethoxy-2-naphthoate;Citreoisocoumarin;Coumarleucasin
+11215	pos	317.189313	1	316.182037	48.3926	5651	[M+H]+	
+11215	pos	317.268465	1	316.261189	83.405	6145	[M+H]+	(19 names) 9,12-dihydroxy stearic acid;MG(0:0/i-15:0/0:0);9,10-Dihydroxystearate;6,7-dihydroxy stearic acid;8,9-dihydroxy stearic acid;5,6-dihydroxy stearic acid;15,16-dihydroxy-octadecanoic acid;9,14-dihydroxy-...
+11215	pos	318.117289	1	317.110013	18.9889	948	[M+H]+	
+11215	pos	318.119328	1	317.112051	18.9859	945	[M+H]+	
+11215	pos	318.11944	1	317.112164	13.6337	735	[M+H]+	
+11215	pos	318.155897	1	317.14862	33.343	2271	[M+H]+	
+11215	pos	319.120295	1	318.113019	18.9882	947	[M+H]+	(2 names) Pandangolide 2;(-)-Pandangolide 2
+11215	pos	325.200793	1	324.193517	85.7103	6171	[M+H]+	(13 names) Albocycline M-1;Albocycline M-7;Cibaric acid;Grindelistrictoic acid;Albocycline M-4;Marrulanic acid;(-)-Marrulanic acid;Albocycline M-5;Dinor-PGD2;Hynapene A;Dinor-PGE2;Lactapiperanol D;Albocycline M-...
+11215	pos	326.305338	1	325.298061	102.814	6617	[M+H]+	(4 names) (-)-Spectaline;Semiplenamide C;(-)-Semiplenamide C;N-Oleoylethanolamine
+11215	pos	326.378013	1	325.370736	82.9346	6140	[M+H]+	
+11215	pos	326.844958	1	287.8818	11.333	249	[M+K]+	
+11215	pos	327.007858	1	326.000582	76.554	6057	[M+H]+	(2 names) Mukanadin B;Agelastatin D
+11215	pos	327.694672	1	326.687395	31.1189	1699	[M+H]+	
+11215	pos	328.673983	1	655.333413	39.8452	4121	[M+2H]2+	
+11215	pos	328.877917	1	983.61192	28.3481	1290	[M+3H]3+	
+11215	pos	330.199957	1	329.192681	29.279	1399	[M+H]+	
+11215	pos	331.164876	1	330.1576	26.5391	1206	[M+H]+	(6 names) Quinocarcin;Antibiotic DC 52;DC-52; Quinocarcin;Terreusinone;(+)-Terreusinone
+11215	pos	331.204861	1	330.197584	51.9568	5785	[M+H]+	
+11215	pos	332.205731	1	331.198455	51.9659	5786	[M+H]+	
+11215	pos	332.279465	1	331.272188	79.4723	6086	[M+H]+	
+11215	pos	332.331037	1	331.323761	80.6018	6103	[M+H]+	Piptamine
+11215	pos	333.17672	1	332.169443	28.082	1267	[M+H]+	
+11215	pos	333.200525	1	332.193248	51.9499	5784	[M+H]+	
+11215	pos	334.139872	1	333.132596	38.2462	3717	[M+H]+	(2 names) Tryptophyl-Glutamate;Glutamyl-Tryptophan
+11215	pos	334.69758	1	333.690304	37.2148	3489	[M+H]+	
+11215	pos	335.221517	1	334.21424	63.4195	5846	[M+H]+	(142 names) bicyclo-PGE2;(+)-Phomactin F;Phomactin F;5-J2-IsoP;1-(3,3-Dimethyloxiranyl)-7-hydroxy-3,7-dimethyl-3,5,8-nonatrienyl ester 2-methyl-2-butenoic acid;Lapidin;PGE2 1,15-lactone;Leoheteronin E;(-)-Leohete...
+11215	pos	335.691923	1	669.369293	28.7185	1333	[M+2H]2+	
+11215	pos	336.326008	1	335.318731	101.081	6438	[M+H]+	Pipericine
+11215	pos	339.106573	1	338.099297	11.2325	234	[M+H]+	(8 names) 1-Caffeoyl-4-deoxyquinic acid;Jiadifenin;Hydrojuglone glucoside;alpha-Hydrojuglone-4-glucoside;3-O-p-Coumaroylquinic acid;4-p-Coumaroylquinic acid;4-Hydroxy-5-methylcoumarin 4-O-beta-D-glucopyranoside...
+11215	pos	340.284546	1	339.277269	100.545	6430	[M+H]+	Oleoyl glycine
+11215	pos	341.710261	1	681.405968	32.9874	2169	[M+2H]2+	
+11215	pos	341.710382	1	340.703105	32.3632	2017	[M+H]+	
+11215	pos	342.21352	1	341.206244	31.4917	1765	[M+H]+	
+11215	pos	342.238848	1	341.231572	39.5912	4076	[M+H]+	Diprotin A
+11215	pos	342.238883	1	341.231607	40.5935	4356	[M+H]+	Diprotin A
+11215	pos	343.69223	1	1370.739815	30.1029	1535	[M+4H]4+	
+11215	pos	344.27919	1	343.271914	66.2651	5856	[M+H]+	(2 names) N-palmitoyl serine;Dodecanoylcarnitine
+11215	pos	345.193814	1	344.186538	31.2043	1722	[M+H]+	
+11215	pos	345.193832	1	1032.559668	31.7689	1853	[M+3H]3+	
+11215	pos	345.877786	1	1034.611529	29.6737	1459	[M+3H]3+	
+11215	pos	348.070142	1	347.062865	12.5212	500	[M+H]+	(7 names) dGMP;Deoxyguanosine 5'-phosphate;7-alpha-D-Ribosyladenine 5'-phosphate;Adenosine monophosphate;3'-AMP;2-Hydroxy-dAMP;2'-AMP
+11215	pos	348.31065	1	347.303373	65.2126	5852	[M+H]+	
+11215	pos	349.051379	1	348.044103	14.4398	814	[M+H]+	(5 names) 2-Keto-3-deoxy-D-glycero-D-galacto-nononate 9-phosphate;3-Deoxy-D-glycero-D-galacto-non-2-ulosonate 9-phosphate;KDN 9-phosphate;2-(alpha-D-Mannosyl)-3-phosphoglycerate;2-O-(6-Phospho-alpha-mannosyl)-D...
+11215	pos	349.05404	1	348.046763	18.6627	841	[M+H]+	(7 names) Inosine 2'-phosphate;Inosinic acid;2-Keto-3-deoxy-D-glycero-D-galacto-nononate 9-phosphate;3-Deoxy-D-glycero-D-galacto-non-2-ulosonate 9-phosphate;KDN 9-phosphate;2-(alpha-D-Mannosyl)-3-phosphoglycera...
+11215	pos	349.05406	1	348.046784	12.9615	561	[M+H]+	(7 names) Inosine 2'-phosphate;Inosinic acid;2-Keto-3-deoxy-D-glycero-D-galacto-nononate 9-phosphate;3-Deoxy-D-glycero-D-galacto-non-2-ulosonate 9-phosphate;KDN 9-phosphate;2-(alpha-D-Mannosyl)-3-phosphoglycera...
+11215	pos	349.054145	1	348.046869	13.928	796	[M+H]+	(7 names) Inosine 2'-phosphate;Inosinic acid;2-Keto-3-deoxy-D-glycero-D-galacto-nononate 9-phosphate;3-Deoxy-D-glycero-D-galacto-non-2-ulosonate 9-phosphate;KDN 9-phosphate;2-(alpha-D-Mannosyl)-3-phosphoglycera...
+11215	pos	349.689389	1	697.364225	24.5438	1128	[M+2H]2+	
+11215	pos	351.058539	1	350.051262	18.652	840	[M+H]+	Clitidine 5'-phosphate
+11215	pos	351.058814	1	350.051538	12.9326	537	[M+H]+	Clitidine 5'-phosphate
+11215	pos	351.176965	1	350.169689	27.7899	1243	[M+H]+	
+11215	pos	354.300115	1	353.292838	101.632	6503	[M+H]+	(2 names) N-palmitoyl proline;N-oleoyl alanine
+11215	pos	354.336572	1	353.329296	104.951	6673	[M+H]+	Anandamide (20:l, n-9)
+11215	pos	355.854395	1	354.847118	30.8884	1658	[M+H]+	
+11215	pos	355.857367	1	1064.550271	30.876	1657	[M+3H]3+	
+11215	pos	356.214361	1	1420.828336	30.1117	1539	[M+4H]4+	
+11215	pos	356.225555	1	355.218279	103.314	6627	[M+H]+	
+11215	pos	356.739923	1	355.732647	36.9793	3420	[M+H]+	
+11215	pos	357.249654	1	356.242378	11.4945	261	[M+H]+	
+11215	pos	358.19743	1	357.190153	41.5524	4611	[M+H]+	
+11215	pos	358.252533	1	357.245257	11.4939	260	[M+H]+	
+11215	pos	360.362511	1	359.355234	86.1704	6200	[M+H]+	
+11215	pos	361.182709	1	360.175432	12.7791	504	[M+H]+	
+11215	pos	362.782146	1	361.77487	105.483	6745	[M+H]+	
+11215	pos	363.154871	1	362.147594	19.065	962	[M+H]+	
+11215	pos	363.206609	1	1448.797331	25.4416	1156	[M+4H]4+	
+11215	pos	363.220953	1	724.427354	42.3021	4795	[M+2H]2+	Unguisin B
+11215	pos	363.310451	1	362.303175	100.335	6423	[M+H]+	
+11215	pos	364.064926	1	363.05765	18.6838	848	[M+H]+	(8 names) 8-Oxo-dGMP;Guanosine monophosphate;Guanosine 3'-phosphate;3'-GMP;3'-Guanylic acid;Guo-3'-P;Gp;Precursor Z
+11215	pos	364.065222	1	363.057946	12.8047	508	[M+H]+	(8 names) 8-Oxo-dGMP;Guanosine monophosphate;Guanosine 3'-phosphate;3'-GMP;3'-Guanylic acid;Guo-3'-P;Gp;Precursor Z
+11215	pos	364.441913	1	363.434636	24.1944	1122	[M+H]+	
+11215	pos	364.693152	1	363.685875	24.1616	1120	[M+H]+	
+11215	pos	365.068341	1	364.061065	12.7972	507	[M+H]+	
+11215	pos	365.181799	1	364.174523	30.4524	1582	[M+H]+	
+11215	pos	365.710439	1	729.406325	34.7371	2668	[M+2H]2+	
+11215	pos	367.149628	1	366.142351	25.2173	1147	[M+H]+	(2 names) Tetrahydropentoxyline;Semilepidinoside B
+11215	pos	369.71977	1	1474.849975	30.6661	1619	[M+4H]4+	
+11215	pos	370.094818	1	369.087542	11.7922	326	[M+H]+	(2 names) Chaetoquadrin D;CQ 4
+11215	pos	370.294946	1	369.287669	69.1424	5866	[M+H]+	(5 names) cis-5-Tetradecenoylcarnitine;Besarhanamide B;(+)-Besarhanamide B;trans-2-Tetradecenoylcarnitine;O-(2-tetradecenoyl)carnitine
+11215	pos	371.892168	1	1112.654674	29.4095	1410	[M+3H]3+	
+11215	pos	372.310553	1	371.303277	72.7341	5932	[M+H]+	(2 names) N-stearoyl serine;Tetradecanoylcarnitine
+11215	pos	372.34721	1	371.339933	94.1029	6354	[M+H]+	
+11215	pos	372.710117	1	371.702841	26.3928	1178	[M+H]+	
+11215	pos	373.219034	1	372.211758	10.5191	77	[M+H]+	
+11215	pos	374.19237	1	373.185094	41.6511	4632	[M+H]+	AM4299B
+11215	pos	374.204488	1	1119.591635	31.2708	1734	[M+3H]3+	
+11215	pos	375.480103	1	374.472826	29.7032	1463	[M+H]+	
+11215	pos	376.19032	1	375.183043	46.6584	5430	[M+H]+	(2 names) N-Methylseverifoline;Cyphenothrin
+11215	pos	376.305706	1	375.29843	80.0179	6094	[M+H]+	
+11215	pos	376.346216	1	1501.355757	28.3491	1289	[M+4H]4+	
+11215	pos	376.470874	1	375.463598	28.3577	1301	[M+H]+	
+11215	pos	377.145787	1	376.13851	38.4177	3748	[M+H]+	(18 names) Riboflavin;Euphroside;Cachineside V;Tecomoside;6beta-Dihydrocornic acid;4-Methylantirrhinoside;;Junipetrioloside B;Tuliposide D;Vebraside;9-Hydroxysemperoside;(1x,2x)-Guaiacylglycerol 2-glucoside;(1RS...
+11215	pos	378.236774	1	377.229497	34.8396	2695	[M+H]+	
+11215	pos	378.816608	1	377.809331	11.3324	248	[M+H]+	
+11215	pos	378.904419	1	377.897142	24.233	1124	[M+H]+	
+11215	pos	380.18396	1	301.162748	24.9169	1142	[M+DMSO+H]+	(2 names) (Ac)2-L-Lys-D-Ala;(Ac)2-L-lysyl-D-alanine
+11215	pos	380.255899	1	379.248623	74.892	6042	[M+H]+	(2 names) N-palmitoyl-phosphoethanolamine;Sphingosine-1-phosphate
+11215	pos	380.337147	1	362.303321	100.316	6422	[M+NH4]+	
+11215	pos	380.619281	1	379.612005	29.5353	1431	[M+H]+	
+11215	pos	380.820093	1	1899.064082	29.5396	1434	[M+5H]5+	
+11215	pos	382.146703	1	399.149991	19.8727	995	[M-H2O+H]+	
+11215	pos	382.628583	1	1908.106532	29.9989	1505	[M+5H]5+	
+11215	pos	383.363385	1	351.313909	102.867	6621	[M+CH5N+H]+	Anandamide (20:2, n-6)
+11215	pos	384.114609	1	383.107332	28.1622	1275	[M+H]+	Succinyladenosine
+11215	pos	385.009587	1	384.00231	31.8079	1864	[M+H]+	
+11215	pos	385.028954	1	384.021677	11.1222	227	[M+H]+	
+11215	pos	385.128491	1	384.121215	18.8888	873	[M+H]+	(52 names) Piperenol B;Artocarpone A;5,7,3',4'-Tetrahydroxy-3-methoxy-6-prenylflavone;Uralene;Piscidone;5,7,3',4'-Tetrahydroxy-5'-methoxy-2'-prenylisoflavone;Ophiopogonanone D;(-)-Ophiopogonanone D;Flavescenone ...
+11215	pos	385.196493	1	384.189216	26.8384	1217	[M+H]+	
+11215	pos	385.196566	1	384.189289	28.0315	1255	[M+H]+	
+11215	pos	385.714795	1	1538.830074	30.6208	1607	[M+4H]4+	
+11215	pos	386.272571	1	385.265294	102.238	6529	[M+H]+	
+11215	pos	387.009968	1	348.046809	18.6271	839	[M+K]+	(7 names) Inosine 2'-phosphate;Inosinic acid;2-Keto-3-deoxy-D-glycero-D-galacto-nononate 9-phosphate;3-Deoxy-D-glycero-D-galacto-non-2-ulosonate 9-phosphate;KDN 9-phosphate;2-(alpha-D-Mannosyl)-3-phosphoglycera...
+11215	pos	387.010189	1	386.002912	13.0143	577	[M+H]+	
+11215	pos	387.179788	1	386.172512	73.9296	6035	[M+H]+	(32 names) (+)-Gomisin M2;Porson;(-)-Furaquinocin D;Furaquinocin D;KO 3988D;Burcellin;Mortonin;Mortonin A;(5alpha,5aalpha,6alpha,9beta,9aalpha)-6-(Benzoyloxy)-5,5a,6,7,8,9-hexahydro-9-hydroxy-2,2,5a,9-tetramethy...
+11215	pos	387.23458	1	386.227303	10.4991	76	[M+H]+	
+11215	pos	389.221173	1	388.213897	28.791	1343	[M+H]+	
+11215	pos	391.28375	1	390.276473	14.699	817	[M+H]+	(47 names) 3alpha,12alpha-Dihydroxy-5beta-chol-8(14)-en-24-oic Acid;(E,E,E)-2-(4,8,12-Trimethyl-3,7,11-tridecatrienyl)-2-butene-1,4-diol diacetate;3beta-Hydroxy-11-oxo-5beta-cholan-24-oic Acid;9'-Carboxy-alpha-c...
+11215	pos	391.283782	1	390.276506	17.0955	833	[M+H]+	(47 names) 3alpha,12alpha-Dihydroxy-5beta-chol-8(14)-en-24-oic Acid;(E,E,E)-2-(4,8,12-Trimethyl-3,7,11-tridecatrienyl)-2-butene-1,4-diol diacetate;3beta-Hydroxy-11-oxo-5beta-cholan-24-oic Acid;9'-Carboxy-alpha-c...
+11215	pos	391.284285	1	390.277009	101.559	6473	[M+H]+	(47 names) 3alpha,12alpha-Dihydroxy-5beta-chol-8(14)-en-24-oic Acid;(E,E,E)-2-(4,8,12-Trimethyl-3,7,11-tridecatrienyl)-2-butene-1,4-diol diacetate;3beta-Hydroxy-11-oxo-5beta-cholan-24-oic Acid;9'-Carboxy-alpha-c...
+11215	pos	391.28429	1	390.277013	102.384	6565	[M+H]+	(47 names) 3alpha,12alpha-Dihydroxy-5beta-chol-8(14)-en-24-oic Acid;(E,E,E)-2-(4,8,12-Trimethyl-3,7,11-tridecatrienyl)-2-butene-1,4-diol diacetate;3beta-Hydroxy-11-oxo-5beta-cholan-24-oic Acid;9'-Carboxy-alpha-c...
+11215	pos	392.185204	1	391.177927	43.9946	5088	[M+H]+	(8 names) S-Hexyl-glutathione;S-Hexyl-L-glutathione;Ancistrolikokine D;Ancistrocongolensine;Flavoxate;N-Methylatalaphyllinine;Ancistroheynine B;Ancistroheynine A
+11215	pos	393.585638	1	392.578362	32.8784	2137	[M+H]+	
+11215	pos	393.982839	1	392.975562	31.2065	1726	[M+H]+	
+11215	pos	393.983508	1	392.976232	32.7038	2097	[M+H]+	
+11215	pos	394.215469	1	393.208193	12.1716	379	[M+H]+	
+11215	pos	394.233704	1	393.226427	31.2388	1729	[M+H]+	Oxidized Cypridina luciferin
+11215	pos	394.298163	1	393.290886	84.7475	6156	[M+H]+	
+11215	pos	394.331537	1	393.32426	101.74	6512	[M+H]+	
+11215	pos	394.352774	1	362.303298	100.369	6429	[M+CH5N+H]+	
+11215	pos	394.551697	1	393.54442	39.0028	3927	[M+H]+	
+11215	pos	394.578448	1	393.571172	10.9125	192	[M+H]+	
+11215	pos	394.593018	1	393.585741	12.1582	473	[M+H]+	
+11215	pos	394.595471	1	393.588195	43.3931	5012	[M+H]+	
+11215	pos	394.597577	1	393.5903	91.3669	6340	[M+H]+	
+11215	pos	395.214264	1	1576.82795	32.5243	2044	[M+4H]4+	
+11215	pos	395.235606	1	394.228329	29.6411	1454	[M+H]+	
+11215	pos	395.361713	1	394.354436	29.6449	1455	[M+H]+	
+11215	pos	395.55544	1	394.548164	29.7551	1465	[M+H]+	
+11215	pos	396.176727	1	395.169451	39.0603	3934	[M+H]+	
+11215	pos	396.198918	1	395.191642	10.7375	171	[M+H]+	
+11215	pos	396.310505	1	395.303228	70.9091	5884	[M+H]+	(2 names) 9,12-Hexadecadienoylcarnitine;(7Z,10Z)-hexadecadienoylcarnitine
+11215	pos	397.105717	1	396.09844	11.6774	277	[M+H]+	
+11215	pos	397.207764	1	396.200487	24.7745	1137	[M+H]+	(2 names) Creoside IV;1-Hexanol arabinosylglucoside
+11215	pos	397.241632	1	0.0	34.09	2482	[M+5H]5+, [M+ACN+4H]4+	
+11215	pos	397.715582	1	396.708306	37.9186	3672	[M+H]+	
+11215	pos	397.88353	1	1190.62876	31.7148	1838	[M+3H]3+	
+11215	pos	398.089695	1	397.082419	11.7931	322	[M+H]+	
+11215	pos	398.232488	1	397.225212	101.025	6434	[M+H]+	Drotaverine
+11215	pos	398.326185	1	397.318909	74.5931	6039	[M+H]+	(3 names) O-palmitoleoylcarnitine;trans-Hexadec-2-enoyl carnitine;9-Hexadecenoylcarnitine
+11215	pos	400.342084	1	399.334807	79.116	6075	[M+H]+	Palmitoylcarnitine;
+11215	pos	401.213717	1	400.20644	20.9158	1078	[M+H]+	
+11215	pos	402.885138	1	401.877861	29.2232	1391	[M+H]+	
+11215	pos	405.126297	1	404.119021	13.6466	749	[M+H]+	Sulfinpyrazone
+11215	pos	405.572028	1	2427.388507	32.9421	2159	[M+6H]6+	
+11215	pos	405.628809	1	404.621532	29.2328	1392	[M+H]+	
+11215	pos	405.829669	1	404.822393	29.2362	1393	[M+H]+	
+11215	pos	406.167999	1	405.160723	19.8223	981	[M+H]+	
+11215	pos	406.171722	1	405.164446	19.7862	979	[M+H]+	(3 names) 8-Dimethylaminoriboflavin;Roseoflavin;Roseoflavine
+11215	pos	406.736664	1	1622.917549	27.239	1226	[M+4H]4+	
+11215	pos	406.737233	1	405.729957	40.5327	4348	[M+H]+	
+11215	pos	407.278751	1	406.271474	100.466	6428	[M+H]+	(35 names) 2beta,3beta-Dihydroxy-6-oxo-5alpha-cholan-24-oic Acid;3beta,7alpha,12alpha-Trihydroxychol-5-en-24-oic Acid;3alpha,12alpha,15beta-Trihydroxy-5beta-chol-8(14)-en-24-oic Acid;7-Ketodeoxycholic acid;18-Is...
+11215	pos	407.828709	1	2034.107161	23.7382	1113	[M+5H]5+	
+11215	pos	407.887177	1	1220.6397	32.3349	2005	[M+3H]3+	
+11215	pos	407.983161	1	1627.903539	32.9543	2154	[M+4H]4+	
+11215	pos	408.218225	1	407.210949	25.7241	1167	[M+H]+	(13 names) Ancistrotanzanine C;Ancistrolikokine A;Ancistrobrevine B; (-)-Ancistrobrevine B;Ancistrogriffine A;Ancistrolikokine C;Ancistrogriffine C;Ancistrine;Ancistrocladine;Buxifoliadine A;Ancistine;5'-O-Demet...
+11215	pos	408.430334	1	407.423058	23.7311	1114	[M+H]+	
+11215	pos	408.437117	1	2037.149203	30.3024	1559	[M+5H]5+	
+11215	pos	409.122503	1	408.115226	18.9142	906	[M+H]+	
+11215	pos	409.161874	1	386.172653	72.3661	5918	[M+Na]+	(32 names) (+)-Gomisin M2;Porson;(-)-Furaquinocin D;Furaquinocin D;KO 3988D;Burcellin;Mortonin;Mortonin A;(5alpha,5aalpha,6alpha,9beta,9aalpha)-6-(Benzoyloxy)-5,5a,6,7,8,9-hexahydro-9-hydroxy-2,2,5a,9-tetramethy...
+11215	pos	409.186848	1	408.179571	33.4049	2281	[M+H]+	(24 names) Vernoflexuoside;Acetylhymenograndin;Glaucolide L;(-)-Glaucolide L;Scabiolide;Macrocliniside C;Eurycolactone F;Gracilin K;(+)-Gracilin K;Plagiochilin B;3-O-Methylniveusin A;Sarcaglaboside B;Spicatolide...
+11215	pos	409.438983	1	408.431707	30.3385	1567	[M+H]+	(2 names) 11-Methylheptacosan-2-one;octacosanal
+11215	pos	410.233203	1	409.225927	28.9775	1366	[M+H]+	Acidissiminol epoxide
+11215	pos	410.239273	1	818.463993	28.9942	1370	[M+2H]2+	
+11215	pos	411.24306	1	410.235784	28.9656	1365	[M+H]+	
+11215	pos	411.74222	1	1642.939775	32.5319	2054	[M+4H]4+	
+11215	pos	412.28792	1	411.280644	100.179	6418	[M+H]+	
+11215	pos	413.239339	1	412.232063	29.3404	1404	[M+H]+	
+11215	pos	413.730695	1	1650.893673	33.6741	2342	[M+4H]4+	
+11215	pos	414.32109	1	413.313814	68.1155	5861	[M+H]+	(3 names) 3-Hydroxy-9-hexadecenoylcarnitine;N-stearoyl glutamic acid;3-hydroxypalmitoleoylcarnitine
+11215	pos	414.640454	1	2068.165888	30.6732	1621	[M+5H]5+	
+11215	pos	414.906308	1	1241.697096	29.8019	1476	[M+3H]3+	
+11215	pos	415.018439	1	376.05528	11.2492	237	[M+K]+	
+11215	pos	415.032281	1	2070.125025	27.219	1224	[M+5H]5+	
+11215	pos	415.157024	1	414.149748	19.8634	988	[M+H]+	
+11215	pos	415.227983	1	1656.882826	32.4552	2033	[M+4H]4+	
+11215	pos	415.262668	1	414.255391	101.246	6443	[M+H]+	
+11215	pos	416.19295	1	377.229791	34.5182	2610	[M+K]+	
+11215	pos	416.336745	1	415.329468	71.8143	5890	[M+H]+	(3 names) 3-Hydroxyhexadecanoylcarnitine;2-Hydroxyhexadecanoylcarnitine;3-hydroxyhexadecanoyl carnitine
+11215	pos	416.65182	1	2078.222717	34.2869	2533	[M+5H]5+	
+11215	pos	416.755646	1	415.748369	35.4267	2895	[M+H]+	
+11215	pos	417.975531	1	1667.873018	31.201	1724	[M+4H]4+	
+11215	pos	418.138672	1	417.131395	13.6172	654	[M+H]+	
+11215	pos	418.331443	1	417.324166	101.24	6442	[M+H]+	(4 names) N-arachidonoyl isoleucine;1alpha,25-dihydroxy-23-azavitamin D3 / 1alpha,25-dihydroxy-23-azacholecalciferol;N-Oleoyl dopamine;N-arachidonoyl leucine
+11215	pos	419.159448	1	418.152172	27.6038	1235	[M+H]+	18-bromo-8E,17E19Z-tricosatrien-4,6-diynoic acid
+11215	pos	419.578076	1	1255.712399	9.07129	10	[M+3H]3+	
+11215	pos	419.578281	1	1255.713015	8.34958	5	[M+3H]3+	
+11215	pos	420.744507	1	419.73723	34.6021	2649	[M+H]+	
+11215	pos	421.246696	1	420.23942	23.3514	1100	[M+H]+	
+11215	pos	422.083178	1	2526.455408	33.7876	2384	[M+6H]6+	
+11215	pos	422.141256	1	421.133979	31.1329	1708	[M+H]+	
+11215	pos	422.253174	1	1263.737692	31.073	1683	[M+3H]3+	
+11215	pos	422.365051	1	421.357775	31.0802	1682	[M+H]+	
+11215	pos	422.476031	1	421.468755	31.0964	1685	[M+H]+	
+11215	pos	422.578296	1	1264.713058	30.1336	1541	[M+3H]3+	
+11215	pos	422.644459	1	2108.185914	30.427	1577	[M+5H]5+	
+11215	pos	423.020251	1	422.012975	28.8742	1353	[M+H]+	
+11215	pos	423.250024	1	422.242748	33.5513	2317	[M+H]+	(4 names) PA(17:1(9Z)/0:0);PM 94128;Antibiotic B 17;Baciphelacin
+11215	pos	424.253881	1	423.246604	104.042	6634	[M+H]+	
+11215	pos	424.341736	1	423.334459	76.4594	6056	[M+H]+	Linoleyl carnitine
+11215	pos	424.363332	1	423.356056	100.198	6419	[M+H]+	
+11215	pos	424.932773	1	423.925496	69.8478	5869	[M+H]+	
+11215	pos	424.933539	1	423.926262	23.6191	1104	[M+H]+	
+11215	pos	424.947943	1	423.940667	19.2287	973	[M+H]+	
+11215	pos	424.949036	1	423.941759	10.2959	32	[M+H]+	
+11215	pos	424.953168	1	423.945891	12.2712	479	[M+H]+	
+11215	pos	424.956897	1	423.949621	32.8273	2121	[M+H]+	
+11215	pos	425.135954	1	386.172796	72.3781	5921	[M+K]+	(32 names) (+)-Gomisin M2;Porson;(-)-Furaquinocin D;Furaquinocin D;KO 3988D;Burcellin;Mortonin;Mortonin A;(5alpha,5aalpha,6alpha,9beta,9aalpha)-6-(Benzoyloxy)-5,5a,6,7,8,9-hexahydro-9-hydroxy-2,2,5a,9-tetramethy...
+11215	pos	426.243619	1	1700.94537	31.6853	1823	[M+4H]4+	
+11215	pos	426.261245	1	425.253968	75.1437	6043	[M+H]+	(3 names) PC(11:0/0:0);PE(14:0/0:0);LysoPE(0:0/14:0)
+11215	pos	426.357555	1	425.350279	80.4828	6098	[M+H]+	(3 names) Elaidic carnitine;Oleoylcarnitine;Vaccenyl carnitine
+11215	pos	426.494885	1	425.487609	31.3882	1744	[M+H]+	
+11215	pos	426.894329	1	1277.661158	32.6467	2083	[M+3H]3+	
+11215	pos	427.211287	1	852.408021	26.9962	1220	[M+2H]2+	
+11215	pos	427.237787	1	1704.922042	31.1709	1719	[M+4H]4+	
+11215	pos	427.255249	1	426.247973	35.9552	3064	[M+H]+	
+11215	pos	428.036064	1	427.028788	16.0179	827	[M+H]+	(4 names) Adenosine 3',5'-diphosphate;dGDP;ADP;Adenosine 2',5'-bisphosphate
+11215	pos	428.249408	1	1708.968526	24.5007	1126	[M+4H]4+	
+11215	pos	428.373361	1	427.366084	85.348	6166	[M+H]+	Stearoylcarnitine
+11215	pos	429.234802	1	428.227526	31.8454	1871	[M+H]+	6-bromo-tricosa-5E,9Z-dienoic acid
+11215	pos	429.82216	1	428.814884	28.3393	1296	[M+H]+	
+11215	pos	429.914998	1	428.907722	30.3741	1571	[M+H]+	
+11215	pos	429.965768	1	428.958492	28.3549	1300	[M+H]+	
+11215	pos	430.108795	1	429.101519	28.3612	1302	[M+H]+	
+11215	pos	430.25206	1	429.244783	28.3419	1291	[M+H]+	
+11215	pos	430.395618	1	429.388341	28.3499	1295	[M+H]+	
+11215	pos	430.5388	1	429.531524	28.331	1293	[M+H]+	
+11215	pos	430.787573	1	429.780297	11.3293	247	[M+H]+	
+11215	pos	431.025835	1	2150.092794	34.5717	2639	[M+5H]5+	
+11215	pos	431.192592	1	430.185316	37.6335	3601	[M+H]+	Phenethyl rutinoside
+11215	pos	431.213825	1	430.206549	38.2732	3725	[M+H]+	
+11215	pos	431.755653	1	861.496752	35.1708	2808	[M+2H]2+	
+11215	pos	432.080676	1	2586.440399	32.2884	1997	[M+6H]6+	
+11215	pos	432.241455	1	431.234179	57.4645	5824	[M+H]+	
+11215	pos	432.581934	1	431.574657	32.2788	1993	[M+H]+	
+11215	pos	432.726166	1	431.718889	24.6248	1130	[M+H]+	
+11215	pos	433.640831	1	2163.167773	31.7248	1839	[M+5H]5+	
+11215	pos	434.166239	1	433.158963	25.6298	1165	[M+H]+	
+11215	pos	434.166513	1	433.159236	26.4674	1181	[M+H]+	
+11215	pos	434.17013	1	433.162854	29.7703	1469	[M+H]+	
+11215	pos	434.195541	1	433.188265	46.3634	5398	[M+H]+	Karachine
+11215	pos	434.195563	1	433.188286	48.7139	5673	[M+H]+	Karachine
+11215	pos	434.580072	1	1300.718387	37.9034	3668	[M+3H]3+	
+11215	pos	435.06131	1	396.098151	11.5862	264	[M+K]+	
+11215	pos	435.241333	1	2171.170283	28.5372	1328	[M+5H]5+	GalNAcalpha1-3(Fucalpha1-2)Galbeta1-3GalNAcalpha1-3(Fucalpha1-2)Galbeta1-4GlcNAcbeta1-3Galbeta1-4Glcbeta-Cer(d18:1/22:0)
+11215	pos	435.394664	1	434.387388	102.402	6586	[M+H]+	
+11215	pos	436.005496	1	1739.992876	32.9226	2149	[M+4H]4+	
+11215	pos	436.280643	1	435.273367	85.9712	6181	[M+H]+	
+11215	pos	436.664669	1	2178.286965	28.2933	1286	[M+5H]5+	
+11215	pos	438.102203	1	437.094927	12.9378	545	[M+H]+	
+11215	pos	438.259081	1	2623.510828	34.4892	2596	[M+6H]6+	
+11215	pos	438.297633	1	437.290357	91.0252	6328	[M+H]+	PE(P-16:0/0:0)
+11215	pos	439.228312	1	219.110518	28.0359	1260	[2M+H]+	(4 names) Pantothenic acid;Hyacinthacine C1;(+)-Hyacinthacine C1;cis-Zeatin
+11215	pos	439.606289	1	1315.797037	32.3439	2007	[M+3H]3+	
+11215	pos	439.740112	1	1754.931343	31.6104	1795	[M+4H]4+	
+11215	pos	439.970728	1	438.963451	28.3387	1292	[M+H]+	
+11215	pos	440.11358	1	439.106304	28.3815	1310	[M+H]+	
+11215	pos	440.24909	1	439.241813	32.589	2070	[M+H]+	
+11215	pos	440.254028	1	439.246752	28.4117	1316	[M+H]+	
+11215	pos	440.313353	1	439.306077	93.0706	6348	[M+H]+	(2 names) PE(O-16:0/0:0);PC(O-12:0/O-1:0)
+11215	pos	440.336644	1	439.329368	69.943	5871	[M+H]+	(3 names) (-)-Panclicin D;Panclicin D;3-hydroxylinoleoylcarnitine
+11215	pos	440.400061	1	439.392785	28.3495	1308	[M+H]+	
+11215	pos	440.458764	1	2197.257438	32.6072	2073	[M+5H]5+	
+11215	pos	441.066437	1	2200.295802	31.7078	1831	[M+5H]5+	
+11215	pos	441.110162	1	440.102886	12.5624	502	[M+H]+	
+11215	pos	441.249904	1	1320.727883	30.8303	1655	[M+3H]3+	
+11215	pos	441.30719	1	440.299913	44.0945	5107	[M+H]+	

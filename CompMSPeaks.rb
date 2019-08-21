@@ -13,16 +13,16 @@
 # Ex: ruby comp_peaks.rb bin-size-of-ms min-ms max-ms <peak-table> <peak-table> 
 #
 # Format of Peak-Table(s)
-# Sample-ID  charge  mol_mass  ret aduct
+# Sample-ID  charge  mz	adduct_n mz_deionzied ret adduct annotation
 # 
 # type can take  "pos" or "neg".
 # aduct (ion) can take multiple data separated by ", ".
 # 
 # Example of Peak-Table(s)
-# 01111   pos     0.0     18.1	[M-2(H2O)+Na]+, [M-H2O+Na]+
-# 01111   pos     0.0     10.1	[M-H2O+Na]+, [M+Na]+
-# 01112   pos    12.0     11.1	[M-H2O+Na]+, [M+Na]+
-# 01113   pos   330.0     15.2	[2M-H2O+Na]+, [M+Na]+
+# 01113   pos   330.0  1   15.2	[2M-H2O+Na]+, [M+Na]+
+# 01026   pos     103.867711      1       102.860435      80.2545 [M+H]+  
+# 01026   pos     104.07011       1       515.314167      85.9236 [M+5H]5+     
+# 01026   pos     104.070217      1       103.06294       88.3842 [M+H]+  (12 names) 2-Aminoisobutyric acid;3-Aminobutanoic acid;4-amino-butanoic acid;3-Aminoisobutanoic acid;Dimethylglycine;2S-amino-butanoic acid;n-Propyl carbamate;O-Acetylethanolamine;N-Methyl-L-alanine;Butyl nitrit...
 
 # Initialize Variables
 
@@ -34,9 +34,9 @@ require '../MolCalc/molcalc.rb'
 
 module CompMSPeaks
 
-  def calc_ppm( mol_mass, ppm )
+  def calc_ppm( mz, ppm )
     digit_ppm = 0.000001
-    range     = mol_mass.to_f * digit_ppm * ppm.to_f
+    range     = mz.to_f * digit_ppm * ppm.to_f
     return range
   end
 
@@ -51,24 +51,28 @@ module CompMSPeaks
   class MSPeak
     include CompMSPeaks
 
-    def initialize( sid, charge, mol_mass, ret, pid, adduct )
-      @sid = sid              # S12002
-      @charge   = charge      # pos or neg
-      @mol_mass = mol_mass    # 101.00120
-      @ret      = ret         # 37.0 etc.   # Retention Time
-      @adduct   = adduct      # [H]+ etc.
-      @pid      = pid         # 1423
-      @mc       = MolCalc.new
+    def initialize( sid, charge, ret, mz, adduct_n, mz_deionized, 
+                    adduct, annot, pid )
+      @sid          = sid              # S12002
+      @charge       = charge      # pos or neg
+      @ret          = ret         # 37.0 etc.   # Retention Time
+      @mz           = mz    # 101.00120
+      @adduct_n     = adduct_n
+      @mz_deionized = mz_deionized
+      @adduct       = adduct      # [H]+ etc.
+      @annot        = annot
+      @pid          = pid         # 1423
+      @mc           = MolCalc.new
       @ms_without_adduct = calc_ms_without_adduct # 101.00120
     end
 
-    attr_reader :sid, :charge, :mol_mass, :ret, :adduct, :ms_without_adduct,
-                :pid
+    attr_reader :sid, :charge, :ret, :mz, :adduct_n, :mz_deionized, 
+                :adduct, :annot, :pid, :ms_without_adduct
 
     def calc_ms_without_adduct
       adduct_mw = @mc.adduct_mw( @adduct )
       total_adduct = (adduct_mw.adduct_mw_divided_by_charge)
-      ( @mol_mass - total_adduct ) / adduct_mw.mult
+      ( @mz - total_adduct ) / adduct_mw.mult
     end
 
   end
@@ -152,27 +156,37 @@ module CompMSPeaks
       end
     end
 
-    def add_original_peaks( sid, charge, mol_mass, ret, adduct, pid )
-      @pos_array << MSPeak.new(sid,charge,mol_mass,ret,adduct,pid) if charge==:p
-      @neg_array << MSPeak.new(sid,charge,mol_mass,ret,adduct,pid) if charge==:n
+    def add_original_peaks( sid, charge, ret, mz, adduct_n, mz_deionized, adduct, annot, pid )
+      @pos_array << MSPeak.new(sid,charge,ret,mz,adduct_n,mz_deionized,adduct,annot,pid) if charge==:p
+      @neg_array << MSPeak.new(sid,charge,ret,mz,adduct_n,mz_deionized,adduct,annot,pid) if charge==:n
     end
 
     def add_table_data( peak_table_file )
       a = []
-      open( peak_table_file ) .each do |x|
-        a = x.chomp.split("\s")
-        sid = a[0]
-        charge   =  :p if a[1] == "pos"
-        charge   =  :n if a[1] == "neg"
-        mol_mass =  a[2].to_f
-        ret      =  a[3].to_f
-        adducts   =  a[5..-1]
+      open( peak_table_file ).each do |x|
+        a = x.chomp.split("\t")
+        sid          = a[0]
+        charge       = :p if a[1] == "pos"
+        charge       = :n if a[1] == "neg"
+        mz           = a[2].to_f
+        adduct_n     = a[3]
+        mz_deionized = a[4]
+        ret          = a[5].to_f
+        pid          = a[6].to_f
+        if    a.size >  8
+          adducts      = a[7..-2]
+          annot        = a[-1] 
+        elsif a.size == 8
+          adducts      = [ a[7] ]
+          annot        = "" if a.size == 8
+        end
         @samples[ sid ] = ""
         @samples_order = @samples.keys.sort
-        next if mol_mass < @min_search_mass
-        next if mol_mass >= @max_search_mass
+        next if mz < @min_search_mass
+        next if mz >= @max_search_mass
         adducts.each do |an_adduct|
-          add_original_peaks( sid, charge, mol_mass, ret, an_adduct, pid )
+          add_original_peaks( sid, charge, ret, mz, adduct_n, mz_deionized, 
+                              an_adduct, annot, pid )
         end
       end
     end
@@ -246,7 +260,7 @@ module CompMSPeaks
         print "\n" 
         @mspeaks[charge][mspeak].collect{|item|[item.sid, 
                                                 item.charge, 
-                                                item.mol_mass.round(6), 
+                                                item.mz.round(6), 
                                                 item.ret, 
                                                 item.adduct, 
                                                 item.ms_without_adduct.round(6)]}.each do |annot|
@@ -263,7 +277,7 @@ module CompMSPeaks
         next if k != sid_list.sort
         next if @mspeaks[charge][mspeak].size < k.size
         @mspeaks[charge][mspeak].each do |apeak|
-          print "#{charge}\t#{mspeak}\t#{apeak.mol_mass}\t#{apeak.ret}\n"
+          print "#{charge}\t#{mspeak}\t#{apeak.mz}\t#{apeak.ret}\n"
         end
       end
     end
