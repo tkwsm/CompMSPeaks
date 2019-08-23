@@ -168,16 +168,21 @@ module CompMSPeaks
     def add_table_data( peak_table_file )
       a = []
       open( peak_table_file ).each do |x|
+        sid = ""; charge = ""; mz   = 0.0; adduct_n = 0;  
+        mz_deionized = 0.0; mz_without_adduct = 0.0;
+        ret      = 0.0; pid = 0;
+        adducts = []
+        annot   = ""
         a = x.chomp.split("\t")
         sid               = a[0]
         charge            = :p if a[1] == "pos"
         charge            = :n if a[1] == "neg"
         mz                = a[2].to_f
-        adduct_n          = a[3]
+        adduct_n          = a[3].to_i
         mz_deionized      = a[4].to_f
         mz_without_adduct = a[5].to_f
         ret               = a[6].to_f
-        pid               = a[7].to_f
+        pid               = a[7].to_i
         if    a.size >  9
           adducts         = a[8..-2]
           annot           = a[-1] 
@@ -351,10 +356,10 @@ if $0 == __FILE__
 #  msps.list_sid_by_peak_cluster( "pos" )
 #  msps.table_spotcounts_by_peak_cluster( "pos" )
   msps.table_headers( :p )
-  msps.table_peak_cluster( :p )
-  msps.table_peak_cluster( :n )
-##  msps.table_peak_cluster_with_original_ms( :p )
-##  msps.table_peak_cluster_with_original_ms( :n )
+##  msps.table_peak_cluster( :p )
+##  msps.table_peak_cluster( :n )
+  msps.table_peak_cluster_with_original_ms( :p )
+  msps.table_peak_cluster_with_original_ms( :n )
 #  msps.table_spotcounts_by_peak_cluster( :p )
 #  msps.table_peak_cluster2( :n )
 #   sid_list = ["10086", "10199"]
