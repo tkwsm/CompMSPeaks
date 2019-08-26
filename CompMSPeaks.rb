@@ -13,7 +13,7 @@
 # Ex: ruby comp_peaks.rb bin-size-of-ms min-ms max-ms <peak-table> <peak-table> 
 #
 # Format of Peak-Table(s)
-# Sample-ID  charge  mz	adduct_n mz_deionzied ret adduct annotation
+# Sample-ID  charge  mz	rt_n mz_deionzied ret adduct annotation
 # 
 # type can take  "pos" or "neg".
 # aduct (ion) can take multiple data separated by ", ".
@@ -51,13 +51,13 @@ module CompMSPeaks
   class MSPeak
     include CompMSPeaks
 
-    def initialize( sid, charge, ret, mz, adduct_n, mz_deionized, 
+    def initialize( sid, charge, ret, mz, rt_n, mz_deionized, 
                     adduct, annot, pid )
       @sid          = sid              # S12002
       @charge       = charge      # pos or neg
       @ret          = ret         # 37.0 etc.   # Retention Time
       @mz           = mz    # 101.00120
-      @adduct_n     = adduct_n
+      @rt_n         = rt_n
       @mz_deionized = mz_deionized
       @adduct       = adduct      # [H]+ etc.
       @annot        = annot
@@ -66,7 +66,7 @@ module CompMSPeaks
       @mz_without_adduct = calc_mz_without_adduct # 101.00120
     end
 
-    attr_reader :sid, :charge, :ret, :mz, :adduct_n, :mz_deionized, 
+    attr_reader :sid, :charge, :ret, :mz, :rt_n, :mz_deionized, 
                 :adduct, :annot, :pid, :mz_without_adduct
 
     def calc_mz_without_adduct
@@ -160,15 +160,15 @@ module CompMSPeaks
       end
     end
 
-    def add_original_peaks( sid, charge, ret, mz, adduct_n, mz_deionized, adduct, annot, pid )
-      @pos_array << MSPeak.new(sid,charge,ret,mz,adduct_n,mz_deionized,adduct,annot,pid) if charge==:p
-      @neg_array << MSPeak.new(sid,charge,ret,mz,adduct_n,mz_deionized,adduct,annot,pid) if charge==:n
+    def add_original_peaks( sid, charge, ret, mz, rt_n, mz_deionized, adduct, annot, pid )
+      @pos_array << MSPeak.new(sid,charge,ret,mz,rt_n,mz_deionized,adduct,annot,pid) if charge==:p
+      @neg_array << MSPeak.new(sid,charge,ret,mz,rt_n,mz_deionized,adduct,annot,pid) if charge==:n
     end
 
     def add_table_data( peak_table_file )
       a = []
       open( peak_table_file ).each do |x|
-        sid = ""; charge = ""; mz   = 0.0; adduct_n = 0;  
+        sid = ""; charge = ""; mz   = 0.0; rt_n = 0;  
         mz_deionized = 0.0; mz_without_adduct = 0.0;
         ret      = 0.0; pid = 0;
         adducts = []
@@ -178,16 +178,17 @@ module CompMSPeaks
         charge            = :p if a[1] == "pos"
         charge            = :n if a[1] == "neg"
         mz                = a[2].to_f
-        adduct_n          = a[3].to_i
-        mz_deionized      = a[4].to_f
-        mz_without_adduct = a[5].to_f
-        ret               = a[6].to_f
-        pid               = a[7].to_i
-        if    a.size >  9
-          adducts         = a[8..-2]
+        rt_n              = a[3].to_i
+        adduct_n          = a[4].to_i
+        mz_deionized      = a[5].to_f
+        mz_without_adduct = a[6].to_f
+        ret               = a[7].to_f
+        pid               = a[8].to_i
+        if    a.size >  10
+          adducts         = a[9..-2]
           annot           = a[-1] 
-        elsif a.size == 9
-          adducts         = [ a[8] ]
+        elsif a.size == 10
+          adducts         = [ a[9] ]
           annot           = "" 
         end
         @samples[ sid ] = ""
@@ -195,7 +196,7 @@ module CompMSPeaks
         next if mz_without_adduct.abs < @min_search_mass
         next if mz_without_adduct.abs >= @max_search_mass
         adducts.each do |an_adduct|
-          add_original_peaks( sid, charge, ret, mz, adduct_n, mz_deionized, 
+          add_original_peaks( sid, charge, ret, mz, rt_n, mz_deionized, 
                               an_adduct, annot, pid )
         end
       end
@@ -272,7 +273,7 @@ module CompMSPeaks
                                                 item.charge, 
                                                 item.mz.round(6), 
                                                 item.ret, 
-                                                item.adduct_n, 
+                                                item.rt_n, 
                                                 item.mz_deionized, 
                                                 item.adduct, 
                                                 item.mz_without_adduct.round(6), 
@@ -334,7 +335,8 @@ if $0 == __FILE__
     file_name = ""
     next if afile =~ /^\./
 #    next if afile !~ /\S+.peak.table/ and afile !~ /^\d+/
-    next if afile !~ /\S+.peak.table.deion/ and afile !~ /^\d+/
+    next if afile !~ /\S+.peak.table.deion/ 
+    next if afile !~ /^\d+/
     if afile =~ /peak.table/
       file_name = afile.slice(/^(\S+).peak.table/, 1) 
     elsif afile =~ /^\d+/
@@ -352,12 +354,13 @@ if $0 == __FILE__
 ##                                   bin, min, max, peak_tables ##
 ##  msps = CompMSPeaks::MSPeaks.new( 5, min_peak, max_peak, peak_tables )
   msps = CompMSPeaks::MSPeaks.new( 0.001, min_peak, max_peak, peak_tables )
+##  msps = CompMSPeaks::MSPeaks.new( 0.01, min_peak, max_peak, peak_tables )
   msps.change_samples_order( sample_id_list )
 #  msps.list_sid_by_peak_cluster( "pos" )
 #  msps.table_spotcounts_by_peak_cluster( "pos" )
   msps.table_headers( :p )
-##  msps.table_peak_cluster( :p )
-##  msps.table_peak_cluster( :n )
+#  msps.table_peak_cluster( :p )
+#  msps.table_peak_cluster( :n )
   msps.table_peak_cluster_with_original_ms( :p )
   msps.table_peak_cluster_with_original_ms( :n )
 #  msps.table_spotcounts_by_peak_cluster( :p )
